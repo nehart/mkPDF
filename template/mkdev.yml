@@ -1,0 +1,29 @@
+INHERIT: './mkdocs.yml'
+
+
+watch:
+  - 'mkdocs.yml'
+  - 'mkdev.yml'
+  - 'mkbase.yml'
+  - 'overrides'
+
+
+plugins:
+  - include-markdown:
+      opening_tag: "{!"
+      closing_tag: "!}"
+  - with-pdf:
+      custom_template_path: 'overrides'
+      render_js: true
+      headless_chrome_path: 'chromium'
+      cover: true
+      cover_logo: './cover.png'
+      cover_title: !!python/object/apply:os.getenv ["MKPDF_SITE_NAME"]
+      cover_subtitle: !!python/object/apply:os.getenv ["MKPDF_SITE_SUBNAME"]
+      back_cover: true
+      toc_title: !!python/object/apply:os.getenv ["MKPDF_TOC_TITLE"]
+      toc_level: !!python/object/apply:int [!!python/object/apply:os.getenv ["MKPDF_TOC_LEVEL"]]
+      ordered_chapter_level: !!python/object/apply:int [!!python/object/apply:os.getenv ["MKPDF_CHAPTER_LEVEL"]]
+      debug_html: false
+      show_anchors: false
+      verbose: false

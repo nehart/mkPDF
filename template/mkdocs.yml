@@ -1,0 +1,11 @@
+INHERIT: './mkbase.yml'
+
+
+extra_css:
+  - "assets/stylesheets/EHARTnet.noNAV.css"
+
+
+#
+# nav:
+#   - 'Introduction': './index.md'
+#
