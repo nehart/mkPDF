@@ -121,6 +121,10 @@ docker compose run --rm mkpdf clean
 cd ..; rm -rf test
 ```
 
+```text
+docker image prune --all --force
+```
+
 ## Pushing the Changes
 
 After completing your changes, you can push them to the current branch.
