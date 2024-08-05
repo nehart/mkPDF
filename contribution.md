@@ -32,12 +32,6 @@ git push --set-upstream origin fix_issue_122
 
 ## Development
 
-This image uses a template that is available in the directory `template`.
-
-```text
-cd template
-```
-
 The development server can be started by entering the following command, which will provide a test site accessible under the URL `http://127.0.0.1:8000/`. Additionally, a link to the actual rendered PDF file can be found on the site.
 
 ```text
@@ -90,11 +84,11 @@ docker build --no-cache --file dockerfile --tag registry.ans.co.at/templates/mkp
 ```
 
 ```text
-cd ..; rm -rf test; mkdir test; cd test
+rm -rf test; mkdir test; cd test
 ```
 
 ```text
-cp ../template/compose.yml .
+cp ../compose.yml .
 ```
 
 ```text

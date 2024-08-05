@@ -12,7 +12,7 @@ FROM registry.ans.co.at/templates/mmdocs/mmdocs:latest
 # #################
 #
 
-ARG IMAGE_VERSION=0.0.1
+ARG IMAGE_VERSION=0.0.2
 ARG IMAGE_BUILD_DATE=0000000000
 
 ENV MKPDF_VERSION="V${IMAGE_VERSION}"
@@ -39,6 +39,7 @@ COPY mkdocs.yml /usr/local/share/mmdocs-tmpl/mkdocs.yml
 COPY .gitignore /usr/local/share/mmdocs-tmpl/.gitignore
 
 RUN rm -rf /usr/local/share/mmdocs-tmpl/.gitlab-ci.yml
+RUN rm -rf /usr/local/share/mmdocs-tmpl/mkpdf.yml
 
 COPY env.conf /usr/local/share/mmdocs-tmpl/env.conf
 
@@ -59,6 +60,8 @@ COPY pages/EVPN002Rest.md /usr/local/share/mmdocs-tmpl/pages/EVPN002Rest.md
 COPY pages/EVPN003Evol.md /usr/local/share/mmdocs-tmpl/pages/EVPN003Evol.md
 COPY pages/EVPN004Fund.md /usr/local/share/mmdocs-tmpl/pages/EVPN004Fund.md
 COPY pages/EVPN005Config.md /usr/local/share/mmdocs-tmpl/pages/EVPN005Config.md
+
+RUN /usr/local/share/mmdocs-tmpl/pages/IntroMain.md | sed -e '/div style/d' | sed -e '$d' | sponge /usr/local/share/mmdocs-tmpl/pages/IntroMain.md
 
 COPY overrides/cover.scss /usr/local/lib/python3.12/site-packages/mkdocs_with_pdf/styles/cover.scss
 COPY overrides/fonts.scss /usr/local/lib/python3.12/site-packages/mkdocs_with_pdf/styles/_fonts.scss

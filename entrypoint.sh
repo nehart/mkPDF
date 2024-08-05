@@ -63,14 +63,22 @@ fi
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 #
 
+if [[ "$1" == 'init' ]]
+then
+
+  echo "[INFO] installing template."
+  cp -r /usr/local/share/mmdocs-tmpl/. ./
+  echo "[INFO] template installed."
+
+  exit 0
+
+fi
+
 if [[ ! -f "/mnt/mkdocs.yml" ]]
 then
 
   echo "[INFO] no mkpdf project found"
-  echo "[INFO] installing template."
-  cp -r /usr/local/share/mmdocs-tmpl/. ./
-  echo "[INFO] template installed."
-  echo "[INFO] rerun \"docker compose run --rm mkpdf build\"."
+  echo "[INFO] rerun \"docker compose run --rm mkpdf init\"."
 
   exit 0
 
