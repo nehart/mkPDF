@@ -11,15 +11,11 @@ create-docker-image:
     ##########################################################################################
     - docker login -u $CI_REGISTRY_USER -p $CI_JOB_TOKEN registry.ans.co.at
     ##########################################################################################
-    - cd template
-    ##########################################################################################
     - export IMAGE_VERSION=$(cat dockerfile | grep ARG.*IMAGE_VERSION | cut -d " " -f2 | cut -d "=" -f2)
     - docker build --file dockerfile --build-arg IMAGE_BUILD_DATE=$CI_COMMIT_TAG --tag registry.ans.co.at/templates/mkpdf/mkpdf:V$IMAGE_VERSION-B$CI_COMMIT_TAG .
     - docker push registry.ans.co.at/templates/mkpdf/mkpdf:V$IMAGE_VERSION-B$CI_COMMIT_TAG
     - docker build --file dockerfile --build-arg IMAGE_BUILD_DATE=$CI_COMMIT_TAG --tag registry.ans.co.at/templates/mkpdf/mkpdf:latest .
     - docker push registry.ans.co.at/templates/mkpdf/mkpdf:latest
-    ##########################################################################################
-    - cd ..
     ##########################################################################################
   rules:
     - if: '$CI_COMMIT_TAG =~ /^[0-9]{10}$/'
