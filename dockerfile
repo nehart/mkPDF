@@ -61,7 +61,7 @@ COPY pages/EVPN003Evol.md /usr/local/share/mmdocs-tmpl/pages/EVPN003Evol.md
 COPY pages/EVPN004Fund.md /usr/local/share/mmdocs-tmpl/pages/EVPN004Fund.md
 COPY pages/EVPN005Config.md /usr/local/share/mmdocs-tmpl/pages/EVPN005Config.md
 
-RUN /usr/local/share/mmdocs-tmpl/pages/IntroMain.md | sed -e '/div style/d' | sed -e '$d' | sponge /usr/local/share/mmdocs-tmpl/pages/IntroMain.md
+RUN cat /usr/local/share/mmdocs-tmpl/pages/IntroMain.md | sed -e '/div style/d' | sed -e '$d' | sponge /usr/local/share/mmdocs-tmpl/pages/IntroMain.md
 
 COPY overrides/cover.scss /usr/local/lib/python3.12/site-packages/mkdocs_with_pdf/styles/cover.scss
 COPY overrides/fonts.scss /usr/local/lib/python3.12/site-packages/mkdocs_with_pdf/styles/_fonts.scss
