@@ -172,3 +172,4 @@ git push --tags
 It is essential that any changes made are documented accordingly to ensure accuracy and consistency.
 
   * https://gitlab.ans.co.at/templates/mkpdf/-/blob/main/contribution.md
+  * https://nehart.ans.co.at/writing/mkdocs/TMPL_MKPDF/
