@@ -12,7 +12,7 @@ FROM registry.ans.co.at/templates/mmdocs/mmdocs:latest
 # #################
 #
 
-ARG IMAGE_VERSION=0.0.2
+ARG IMAGE_VERSION=1.0.0
 ARG IMAGE_BUILD_DATE=0000000000
 
 ENV MKPDF_VERSION="V${IMAGE_VERSION}"
