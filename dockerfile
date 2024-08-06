@@ -20,6 +20,14 @@ ENV MKPDF_BUILD_DATE="B${IMAGE_BUILD_DATE}"
 ENV MKPDF_IMAGE_MAINTAINER='Norbert EHART (norbert@ehart.net)'
 
 #
+# #####################
+# ENVIRONMENT VARIABLES
+# #####################
+#
+
+ENV HOME="/tmp/"
+
+#
 # ##############
 # CONTAINER USER
 # ##############

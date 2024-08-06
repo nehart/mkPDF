@@ -4,7 +4,7 @@ The following guideline was created by Norbert EHART (norbert@ehart.net) in 2024
 
 ## Clone the Repository
 
-In order to work on the `mkPDF` image, it is first necessary to clone this repository.
+In order to work on the `mkPDF` project, it is first necessary to clone this repository.
 
 ```text
 git pull git@gitlab.ans.co.at:templates/mkpdf.git
@@ -32,7 +32,7 @@ git push --set-upstream origin fix_issue_122
 
 ## Development
 
-The development server can be started by entering the following command, which will provide a test site accessible under the URL `http://127.0.0.1:8000/`. Additionally, a link to the actual rendered PDF file can be found on the site.
+The development server can be started by entering the following command, which will provide a test site accessible under the URL `http://127.0.0.1:8000`. Additionally, a link to the actual rendered PDF file can be found on the site.
 
 ```text
 docker compose run --rm mmdocs serve --config-file "mkdev.yml"
@@ -92,23 +92,31 @@ cp ../compose.yml .
 ```
 
 ```text
-docker compose run --rm mkpdf bash
+docker compose run --rm --user $(id -u):$(id -g) mkpdf bash
 ```
 
 ```text
-docker compose run --rm mkpdf sh
+docker compose run --rm --user $(id -u):$(id -g) mkpdf sh
 ```
 
 ```text
-docker compose run --rm mkpdf build
+docker compose run --rm --user $(id -u):$(id -g) mkpdf init
 ```
 
 ```text
-docker compose run --rm mkpdf update
+docker compose run --rm --user $(id -u):$(id -g) mkpdf serve
 ```
 
 ```text
-docker compose run --rm mkpdf clean
+docker compose run --rm --user $(id -u):$(id -g) mkpdf build
+```
+
+```text
+docker compose run --rm --user $(id -u):$(id -g) mkpdf update
+```
+
+```text
+docker compose run --rm --user $(id -u):$(id -g) mkpdf clean
 ```
 
 ```text
