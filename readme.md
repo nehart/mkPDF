@@ -2,6 +2,6 @@ The objective of this project is to enhance the user experience of building a PD
 
 ![TEXT](images/mkpdf.png)
 
-<center><img src="images/mkpdf.png"></center>
+<p style="text-align:center;"><img src="images/mkpdf.png"></p>
 
 Further details regarding the usage of this template can be found at [https://nehart.ans.co.at](https://nehart.ans.co.at/writing/mkdocs/TMPL_MKPDF/).
