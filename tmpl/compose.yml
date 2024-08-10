@@ -1,5 +1,4 @@
 services:
-
     mkdocs:
       image: "registry.ans.co.at/docker/mkdocs/mkdocs:latest"
       restart: "no"
@@ -15,7 +14,6 @@ services:
         - "./:/mnt"
         - "/etc/timezone:/etc/timezone:ro"
         - "/etc/localtime:/etc/localtime:ro"
-
     mmdocs:
       image: "registry.ans.co.at/templates/mmdocs/mmdocs:latest"
       restart: "no"
@@ -31,7 +29,6 @@ services:
         - "./:/mnt"
         - "/etc/timezone:/etc/timezone:ro"
         - "/etc/localtime:/etc/localtime:ro"
-
     mkpdf:
       image: "registry.ans.co.at/templates/mkpdf/mkpdf:latest"
       restart: "no"

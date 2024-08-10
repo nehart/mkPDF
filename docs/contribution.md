@@ -32,10 +32,16 @@ git push --set-upstream origin fix_issue_122
 
 ## Development
 
-The development server can be started by entering the following command, which will provide a test site accessible under the URL `http://127.0.0.1:8000`. Additionally, a link to the actual rendered PDF file can be found on the site.
+This image uses a template that is available in the directory `tmpl`.
 
 ```text
-docker compose run --rm mmdocs serve --config-file "mkdev.yml"
+cd tmpl
+```
+
+The development server can be started by entering the following command. The URL for accessing the development website can be found in the command output. Additionally, a link to the actual rendered PDF file can be found on the site.
+
+```text
+docker compose run --rm --user $(id -u):$(id -g) mmdocs serve --config-file "mkdev.yml"
 ```
 
 Now, the development process can begin.
@@ -84,7 +90,7 @@ docker build --no-cache --file dockerfile --tag registry.ans.co.at/templates/mkp
 ```
 
 ```text
-rm -rf test; mkdir test; cd test
+mkdir -p test; cd test
 ```
 
 ```text
@@ -109,14 +115,6 @@ docker compose run --rm --user $(id -u):$(id -g) mkpdf serve
 
 ```text
 docker compose run --rm --user $(id -u):$(id -g) mkpdf build
-```
-
-```text
-docker compose run --rm --user $(id -u):$(id -g) mkpdf update
-```
-
-```text
-docker compose run --rm --user $(id -u):$(id -g) mkpdf clean
 ```
 
 ```text
