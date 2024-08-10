@@ -98,6 +98,10 @@ cp ../compose.yml .
 ```
 
 ```text
+cp ../env.conf .
+```
+
+```text
 docker compose run --rm --user $(id -u):$(id -g) mkpdf bash
 ```
 

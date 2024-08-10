@@ -48,12 +48,8 @@ RUN rm -rf /usr/local/share/mmdocs-tmpl/.gitlab-ci.yml
 RUN rm -rf /usr/local/share/mmdocs-tmpl/.gitignore
 RUN rm -rf /usr/local/share/mmdocs-tmpl/mkpdf.yml
 
-COPY env.conf /usr/local/share/mmdocs-tmpl/env.conf
-
 COPY pages/index.md /usr/local/share/mmdocs-tmpl/pages/index.md
 COPY pages/cover.png /usr/local/share/mmdocs-tmpl/pages/cover.png
-COPY pages/favicon.png /usr/local/share/mmdocs-tmpl/pages/favicon.png
-COPY pages/logo.svg /usr/local/share/mmdocs-tmpl/pages/logo.svg
 
 COPY pages/IntroMain.md /usr/local/share/mmdocs-tmpl/pages/IntroMain.md
 COPY pages/MPLS001Intro.md /usr/local/share/mmdocs-tmpl/pages/MPLS001Intro.md

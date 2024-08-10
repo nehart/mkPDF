@@ -1,12 +1,10 @@
 INHERIT: './mkdocs.yml'
 
-
 watch:
   - 'mkdocs.yml'
   - 'mkdev.yml'
   - 'mkbase.yml'
   - 'overrides'
-
 
 plugins:
   - include-markdown:
@@ -17,7 +15,7 @@ plugins:
       render_js: true
       headless_chrome_path: 'chromium'
       cover: true
-      cover_logo: './cover.png'
+      cover_logo: !!python/object/apply:os.getenv ["MKPDF_COVER_FILE"]
       cover_title: !!python/object/apply:os.getenv ["MKPDF_SITE_NAME"]
       cover_subtitle: !!python/object/apply:os.getenv ["MKPDF_SITE_SUBNAME"]
       back_cover: true

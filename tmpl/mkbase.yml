@@ -11,22 +11,16 @@
 
 site_author: !!python/object/apply:os.getenv ["MKPDF_SITE_AUTHOR"]
 site_name: !!python/object/apply:os.getenv ["MKPDF_SITE_NAME"]
-site_url: !!python/object/apply:os.getenv ["MKPDF_SITE_URL"]
-
 
 docs_dir: 'pages'
 site_dir: 'public'
-
 
 watch:
   - 'mkdocs.yml'
   - 'mkbase.yml'
 
-
 theme:
   name: 'material'
-  logo: './logo.svg'
-  favicon: './favicon.png'
   features:
     - 'navigation.sections'
   palette:
@@ -43,7 +37,6 @@ theme:
         icon: 'material/brightness-4'
         name: 'Light Mode'
 
-
 plugins:
   - include-markdown:
       opening_tag: "{!"
@@ -53,7 +46,7 @@ plugins:
       render_js: true
       headless_chrome_path: 'chromium'
       cover: true
-      cover_logo: './cover.png'
+      cover_logo: !!python/object/apply:os.getenv ["MKPDF_COVER_FILE"]
       cover_title: !!python/object/apply:os.getenv ["MKPDF_SITE_NAME"]
       cover_subtitle: !!python/object/apply:os.getenv ["MKPDF_SITE_SUBNAME"]
       back_cover: true
@@ -64,14 +57,11 @@ plugins:
       show_anchors: false
       verbose: false
 
-
 nav:
   - 'Introduction': './index.md'
 
-
 extra:
   generator: false
-
 
 markdown_extensions:
   - attr_list
