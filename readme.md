@@ -4,4 +4,4 @@ The objective of this project is to enhance the user experience of building a PD
 <img src="images/mkpdf.png">
 </div>
 
-Further details regarding the usage of this template can be found at [https://nehart.ans.co.at](https://nehart.ans.co.at/writing/mkdocs/TMPL_MKPDF/).
+Further details regarding the usage of this template can be found at [https://www.ans.co.at](https://www.ans.co.at/writing/mkdocs/TMPL_MKPDF/).
