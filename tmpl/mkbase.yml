@@ -60,6 +60,9 @@ plugins:
 nav:
   - 'Introduction': './index.md'
 
+not_in_nav: |
+  /*
+
 extra:
   generator: false
 
