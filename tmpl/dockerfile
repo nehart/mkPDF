@@ -4,7 +4,7 @@
 # ##########
 #
 
-FROM registry.ans.co.at/templates/mmdocs/mmdocs:latest
+FROM registry.ans.co.at/templates/nndocs/nndocs:latest
 
 #
 # #################
@@ -12,7 +12,7 @@ FROM registry.ans.co.at/templates/mmdocs/mmdocs:latest
 # #################
 #
 
-ARG IMAGE_VERSION=1.1.0
+ARG IMAGE_VERSION=2.0.0
 ARG IMAGE_BUILD_DATE=0000000000
 
 ENV MKPDF_VERSION="V${IMAGE_VERSION}"
@@ -49,22 +49,7 @@ RUN rm -rf /usr/local/share/mmdocs-tmpl/.gitignore
 RUN rm -rf /usr/local/share/mmdocs-tmpl/mkpdf.yml
 
 COPY pages/index.md /usr/local/share/mmdocs-tmpl/pages/index.md
-COPY pages/cover.png /usr/local/share/mmdocs-tmpl/pages/cover.png
-
-COPY pages/IntroMain.md /usr/local/share/mmdocs-tmpl/pages/IntroMain.md
-COPY pages/MPLS001Intro.md /usr/local/share/mmdocs-tmpl/pages/MPLS001Intro.md
-COPY pages/MPLS002MPLSLabelStack.md /usr/local/share/mmdocs-tmpl/pages/MPLS002MPLSLabelStack.md
-COPY pages/MPLS003EntropyLabelHashLabel.md /usr/local/share/mmdocs-tmpl/pages/MPLS003EntropyLabelHashLabel.md
-COPY pages/MPLS004LSR.md /usr/local/share/mmdocs-tmpl/pages/MPLS004LSR.md
-COPY pages/MPLS005BiDir.md /usr/local/share/mmdocs-tmpl/pages/MPLS005BiDir.md
-COPY pages/MPLS006MPLSFrr.md /usr/local/share/mmdocs-tmpl/pages/MPLS006MPLSFrr.md
-COPY pages/EVPN001Intro.md /usr/local/share/mmdocs-tmpl/pages/EVPN001Intro.md
-COPY pages/EVPN002Rest.md /usr/local/share/mmdocs-tmpl/pages/EVPN002Rest.md
-COPY pages/EVPN003Evol.md /usr/local/share/mmdocs-tmpl/pages/EVPN003Evol.md
-COPY pages/EVPN004Fund.md /usr/local/share/mmdocs-tmpl/pages/EVPN004Fund.md
-COPY pages/EVPN005Config.md /usr/local/share/mmdocs-tmpl/pages/EVPN005Config.md
-
-RUN cat /usr/local/share/mmdocs-tmpl/pages/IntroMain.md | sed -e '/div style/d' | sed -e '$d' | sponge /usr/local/share/mmdocs-tmpl/pages/IntroMain.md
+COPY pages/images/cover.png /usr/local/share/mmdocs-tmpl/pages/images/cover.png
 
 COPY overrides/cover.scss /usr/local/lib/python3.12/site-packages/mkdocs_with_pdf/styles/cover.scss
 COPY overrides/fonts.scss /usr/local/lib/python3.12/site-packages/mkdocs_with_pdf/styles/_fonts.scss
@@ -74,6 +59,8 @@ COPY overrides/toc.scss /usr/local/lib/python3.12/site-packages/mkdocs_with_pdf/
 
 COPY overrides/cover.html.j2 /usr/local/lib/python3.12/site-packages/mkdocs_with_pdf/templates/default_cover.html.j2
 COPY overrides/back_cover.html.j2 /usr/local/lib/python3.12/site-packages/mkdocs_with_pdf/templates/default_back_cover.html.j2
+
+RUN cat /usr/local/lib/python3.12/site-packages/material/templates/partials/header.html | sed -e 's!{{ config.extra.homepage | d(nav.homepage.url, true) | url }}!{{ config.extra.homepage | d(nav.homepage.url, true) | url }}/pdf/document.pdf!' | sponge /usr/local/lib/python3.12/site-packages/material/templates/partials/header.html
 
 #
 # ################

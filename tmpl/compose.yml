@@ -14,8 +14,8 @@ services:
         - "./:/mnt"
         - "/etc/timezone:/etc/timezone:ro"
         - "/etc/localtime:/etc/localtime:ro"
-    mmdocs:
-      image: "registry.ans.co.at/templates/mmdocs/mmdocs:latest"
+    nndocs:
+      image: "registry.ans.co.at/templates/nndocs/nndocs:latest"
       restart: "no"
       network_mode: "host"
       logging:
@@ -24,7 +24,7 @@ services:
           tag: "{{.Name}}/{{.ID}}"
       env_file:
         - path: "env.conf"
-          required: false
+          required: true
       volumes:
         - "./:/mnt"
         - "/etc/timezone:/etc/timezone:ro"
@@ -39,7 +39,7 @@ services:
           tag: "{{.Name}}/{{.ID}}"
       env_file:
         - path: "env.conf"
-          required: false
+          required: true
       volumes:
         - "./:/mnt"
         - "/etc/timezone:/etc/timezone:ro"
