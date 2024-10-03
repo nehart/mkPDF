@@ -1,16 +1,6 @@
-#
-# MKBASE.YML
-#
-
-#
-# SOURCES
-#   > https://www.mkdocs.org/user-guide/configuration/
-#   > https://pypi.org/project/mkdocs-with-pdf/
-#   > https://github.com/mkdocs/mkdocs/issues/1195
-#
-
 site_author: !!python/object/apply:os.getenv ["MKPDF_SITE_AUTHOR"]
 site_name: !!python/object/apply:os.getenv ["MKPDF_SITE_NAME"]
+site_url: !!python/object/apply:os.getenv ["MKPDF_SITE_URL"]
 
 docs_dir: 'pages'
 site_dir: 'public'
@@ -21,6 +11,8 @@ watch:
 
 theme:
   name: 'material'
+  logo: !!python/object/apply:os.getenv ["MKPDF_LOGO_FILE"]
+  favicon: !!python/object/apply:os.getenv ["MKPDF_FAVICON_FILE"]
   features:
     - 'navigation.sections'
   palette:
@@ -42,7 +34,6 @@ plugins:
       opening_tag: "{!"
       closing_tag: "!}"
   - with-pdf:
-      output_path: '../document.pdf'
       render_js: true
       headless_chrome_path: 'chromium'
       cover: true
