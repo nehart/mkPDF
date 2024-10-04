@@ -1,10 +1,75 @@
-# Lorem ipsum dolor sit amet
+# MARKDOWN
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum diam eget pharetra tempor. Nullam ut lacus maximus, tempor dolor sit amet, viverra nibh. Integer cursus vitae velit sed dignissim. Nam aliquam, sem et consectetur lacinia, dolor mauris malesuada diam, ut feugiat ante felis eu ante. Aenean mattis, ex a tristique dignissim, augue metus scelerisque mauris, luctus maximus neque nisl id sapien. Vestibulum interdum purus sit amet neque aliquam condimentum. Vestibulum ut leo a ligula sagittis sagittis in a augue. Morbi a tortor velit. Praesent lacus massa, vulputate vitae consectetur in, dictum in nunc.
+Markdown is a markup language used for formatting text with simple syntax. It is commonly used for blogging, websites, comment management services, readme files, and documentation. Unlike HTML, markdown does not use tags to define structure and features. The syntax consists of special characters combined with plain text. <a href="https://blog.greenroots.info/20-useful-markdown-syntaxes-for-developers" target="_blank">[https://blog.greenroots.info]</a>
 
-## Proin sit amet tellus velit
+Using Markdown differs from using a WYSIWYG editor. In applications like Word, formatting words and phrases is done by clicking buttons, and changes are immediately visible. However, Markdown is not like that. When creating a Markdown-formatted file, Markdown syntax is added to the text to indicate which words and phrases should look different. <a href="https://www.markdownguide.org/getting-started/" target="_blank">[https://www.markdownguide.org]</a>
 
-Proin sit amet tellus velit. Quisque scelerisque dolor dui, a laoreet dui iaculis et. Maecenas at dui vel arcu rutrum elementum at id purus. Etiam facilisis ultricies bibendum. Etiam vitae iaculis felis. Fusce ut diam id felis rutrum molestie in in dui. In convallis ut sem id lobortis. Fusce suscipit dignissim nibh, sed viverra orci. Curabitur quis convallis quam. Pellentesque suscipit, eros quis porttitor suscipit, ante massa pellentesque diam, tempor congue nibh ipsum vitae nisi. Mauris ullamcorper quam lorem, quis consectetur ante faucibus sit amet. Duis magna nibh, varius a diam eget, molestie accumsan magna. Nunc maximus ultrices ante ac commodo. Suspendisse libero augue, semper sed aliquet eu, commodo id ipsum. Morbi libero orci, auctor sollicitudin massa laoreet, lobortis malesuada risus.
+<figure markdown="span">
+    ![](images/MDExample01.png){: style="width:90%"}
+    <figcaption></figcaption>
+</figure>
+
+When you write in Markdown, the text is stored in a plaintext file that has an `.md` extension. Then you need a Markdown application that can process the Markdown file. There are lots of applications available. Despite their visual differences, all of the applications do the same thing. They all convert Markdown-formatted text to HTML. You can see a visual representation of this process below. <a href="https://www.markdownguide.org/getting-started/" target="_blank">[https://www.markdownguide.org]</a>
+
+<figure markdown="span">
+    ![](images/MDProcess00.png)
+    <figcaption></figcaption>
+</figure>
+
+The generated HTML file can then be converted into a number of other formats, such as PDF. <a href="https://www.markdownguide.org/getting-started/" target="_blank">[https://www.markdownguide.org]</a>
+
+## PARAGRAPHS
+
+Paragraphs do not require any special syntax in Markdown. Just use a blank line to create a new paragraph. <a href="https://www.markdownguide.org/basic-syntax/" target="_blank">[https://www.markdownguide.org]</a> <a href="https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown" target="_blank">[https://experienceleague.adobe.com]</a>
+
+<figure markdown="span">
+    ![](images/MDExample02.png){: style="width:90%"}
+    <figcaption></figcaption>
+</figure>
+
+Markdown makes it easy to create bold and italic text. All you need to do this are asterisks. <a href="https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown" target="_blank">[https://experienceleague.adobe.com]</a> <a href="https://blog.greenroots.info/20-useful-markdown-syntaxes-for-developers" target="_blank">[https://blog.greenroots.info]</a> <a href="https://www.ionos.com/digitalguide/websites/web-development/markdown/" target="_blank">[https://www.ionos.com]</a>
+
+| Syntax          | Output               |
+| :-------------: | :------------------: |
+| `* [.......] *` | *Italic*             |
+| `** [.....] **` | **Bold**             |
+| `*** [...] ***` | ***Italic & Bold***  |
+
+## HEADINGS
+
+An essential part of any documentation are headings. The heading starts with a `#` character, followed by a space and the heading text. You can go up to six levels, using one `#` for the first level heading, two `#` for the second level, and so on. <a href="https://blog.greenroots.info/20-useful-markdown-syntaxes-for-developers" target="_blank">[https://blog.greenroots.info]</a>
+
+/// admonition |
+    type: note
+
+```{.text}
+# Lorem Ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in congue purus, a feugiat felis. 
+Aenean vehicula pulvinar metus, et lacinia mauris malesuada ac. 
+
+## Euismod Ante
+
+Phasellus eu neque orci. Duis viverra dolor a libero finibus congue. In euismod ante sem, vel fermentum 
+lorem rhoncus volutpat. Sed ultricies lorem quis quam lacinia porttitor. Ut egestas convallis ligula a iaculis.
+```
+
+///
+
+
+## LISTS
+
+Markdown supports the ability to create ordered lists using numbers as well as unordered lists using bullets. <a href="https://learn.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops" target="_blank">[https://learn.microsoft.com]</a>
+
+  * First unordered Item
+  * Second unordered Item
+  * Third unordered Item
+
+Ordered lists must begin with a number followed by a full stop for each item on the list, and unordered lists must begin with a asterisk. <a href="https://learn.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops" target="_blank">[https://learn.microsoft.com]</a>
+
+  1. First ordered Item
+  2. Second ordered Item
+  3. Third ordered Item
 
 # Pellentesque suscipit porta feugiat
 

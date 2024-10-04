@@ -86,6 +86,24 @@ section + section {
   * + div.tabbed-set {
     page-break-before: avoid;
   }
+
+  /* # */
+  /* # ORDERED LIST (Left-Spacing) */
+  /* # */
+
+  ol {
+    margin-left: 7mm;
+  }
+
+  /* # */
+  /* # IMAGES (LEFT&RIGHT-SPACING) */
+  /* # */
+
+  img {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
 }
 
 section.two-columns {
