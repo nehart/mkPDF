@@ -4,14 +4,18 @@ watch:
   - 'mkdocs.yml'
   - 'mkdev.yml'
   - 'mkbase.yml'
-  - 'overrides'
+  - 'overrides_pdf'
+  - 'overrides_mkdocs'
+
+theme:
+  custom_dir: 'overrides_mkdocs'
 
 plugins:
   - include-markdown:
       opening_tag: "{!"
       closing_tag: "!}"
   - with-pdf:
-      custom_template_path: 'overrides'
+      custom_template_path: 'overrides_pdf'
       render_js: true
       headless_chrome_path: 'chromium'
       cover: true
