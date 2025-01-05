@@ -12,4 +12,4 @@ docker push registry.ans.co.at/templates/mkpdf/mkpdf:V${IMAGEVERSION}-B${CI_COMM
 docker build --file dockerfile --tag registry.ans.co.at/templates/mkpdf/mkpdf:latest .
 docker push registry.ans.co.at/templates/mkpdf/mkpdf:latest
 
-cd "${CI_PROJECT_DIR}
+cd "${CI_PROJECT_DIR}"
