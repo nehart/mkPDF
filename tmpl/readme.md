@@ -1,9 +1,3 @@
-# mkPDF
-
-The following guideline was created by Norbert EHART (norbert@ehart.net) in 2024 under the CC-BY license and is intended to provide information to those working on the `mkPDF` project.
-
-## Clone the Repository
-
 In order to work on the `mkPDF` project, it is first necessary to clone this repository.
 
 ```text
@@ -14,7 +8,11 @@ git pull git@gitlab.ans.co.at:templates/mkpdf.git
 cd mkpdf
 ```
 
-## Branches
+Then, we need to change into the TEMPLATES directory.
+
+```text
+cd tmpl
+```
 
 The stable version of this project is located in the main branch. In order to conduct development work, a new branched should be created. There is no specific naming convention for the development branches.
 
@@ -30,23 +28,17 @@ git switch fix_issue_122
 git push --set-upstream origin fix_issue_122
 ```
 
-## Development
-
-This image uses a template that is available in the directory `tmpl`.
+The development server can be started by entering the following command. The URL for accessing the development website can be found in the command output.
 
 ```text
-cd tmpl
-```
-
-The development server can be started by entering the following command. The URL for accessing the development website can be found in the command output. Additionally, a link to the actual rendered PDF file can be found on the site.
-
-```text
-docker compose run --rm --user $(id -u):$(id -g) mmdocs serve --config-file "mkdev.yml"
+docker compose run --rm --user $(id -u):$(id -g) nndocs serve --config-file "mkdev.yml"
 ```
 
 Now, the development process can begin.
 
 ```text
+[...]
+
 vi overrides/cover.html.j2
 vi overrides/back_cover.html.j2
 
@@ -78,27 +70,28 @@ vi env.conf
 vi compose.yml
 
 [...]
-
-vi .gitignore
 ```
 
 Following the completion of the development process, it is imperative to conduct a localised test.
-
 
 ```text
 docker build --no-cache --file dockerfile --tag registry.ans.co.at/templates/mkpdf/mkpdf:latest .
 ```
 
 ```text
-mkdir -p test; cd test
+[[ -d /tmp/mkpdf ]] && rm -rf /tmp/mkpdf; mkdir -p /tmp/mkpdf
 ```
 
 ```text
-cp ../compose.yml .
+cp compose.yml /tmp/mkpdf
 ```
 
 ```text
-cp ../env.conf .
+cp env.conf /tmp/mkpdf
+```
+
+```text
+cd /tmp/mkpdf
 ```
 
 ```text
@@ -122,14 +115,8 @@ docker compose run --rm --user $(id -u):$(id -g) mkpdf build
 ```
 
 ```text
-cd ..; rm -rf test
-```
-
-```text
 docker image prune --all --force
 ```
-
-## Pushing the Changes
 
 After completing your changes, you can push them to the current branch.
 
@@ -155,11 +142,7 @@ Then, you can switch back to the main branch.
 git switch main
 ```
 
-Once the development process is finished, the development branch must be merged into the master branch, and then deleted. The development branch should only be merged if it has been successfully tested.
-
-## Tags and Releases
-
-After merging a development branch into the main branch, a new tag associated with the build date must be created. The build date must follow the format `YYYYMMDDXX`. The tags are also used to initiate a pipeline that generates the docker images in the container registry along with a new release.
+Once the development process is finished, the development branch must be merged into the master branch, and then deleted. The development branch should only be merged if it has been successfully tested. After merging a development branch into the main branch, a new tag associated with the build date must be created. The build date must follow the format `YYYYMMDDXX`. The tags are also used to initiate a pipeline that generates the docker images in the container registry along with a new release.
 
 ```text
 git tag -a 2024012100 -m ""
@@ -168,10 +151,3 @@ git tag -a 2024012100 -m ""
 ```text
 git push --tags
 ```
-
-## Documentation
-
-It is essential that any changes made are documented accordingly to ensure accuracy and consistency.
-
-  * https://gitlab.ans.co.at/templates/mkpdf/-/blob/main/contribution.md
-  * https://nehart.ans.co.at/writing/mkdocs/TMPL_MKPDF/
