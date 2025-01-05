@@ -1,7 +1,7 @@
 The objective of this project is to enhance the user experience of building a PDF file based on markdown files. This is achieved through the use of a docker image, which has all the necessary software packages preinstalled.
 
 <div align="center">
-<img src="images/mkpdf.png" height="200>
+<img src="images/mkpdf.png" height="200">
 </div>
 
 This tutorial was created by Norbert EHART (norbert@ehart.net) in 2023 under the CC-BY licence.
