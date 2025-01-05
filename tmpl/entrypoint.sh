@@ -46,19 +46,6 @@ then
 fi
 
 #
-# "MMDOCS" CLEANUP
-# %%%%%%%%%%%%%%%%
-#
-
-if [[ "$1" == 'clean' ]]
-then
-
-  find ./ ! -name 'compose.yml' ! -name '.' -exec rm -rf {} +
-  exit 0
-
-fi
-
-#
 # "MMDOCS" CREATE A PROJECT IF NO ONE EXISTS
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 #
