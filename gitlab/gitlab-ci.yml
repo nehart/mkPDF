@@ -11,7 +11,7 @@ build-push-docker-image:
   stage: "build-push-docker-image"
   services: ["docker:dind"]
   script: ["/bin/sh ${CI_PROJECT_DIR}/gitlab/build-push-docker-image.sh"]
-  rules: ["$CI_COMMIT_TAG =~ /^[0-9]{10}$/"]
+  rules: ['$CI_COMMIT_TAG =~ /^[0-9]{10}$/']
 
 create-release:
   image: "registry.gitlab.com/gitlab-org/release-cli:latest"
@@ -21,4 +21,4 @@ create-release:
     name: "$CI_COMMIT_TAG"
     description: "Created with CI/CD"
     tag_name: "$CI_COMMIT_TAG"
-  rules: ["$CI_COMMIT_TAG =~ /^[0-9]{10}$/"]
+  rules: ['$CI_COMMIT_TAG =~ /^[0-9]{10}$/']
