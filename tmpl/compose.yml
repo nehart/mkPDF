@@ -15,7 +15,7 @@ services:
         - "/etc/timezone:/etc/timezone:ro"
         - "/etc/localtime:/etc/localtime:ro"
     nndocs:
-      image: "registry.ans.co.at/templates/nndocs/nndocs:latest"
+      image: "registry.ans.co.at/templates/nndocs/nndocs:V1.1.0-B2024100103"
       restart: "no"
       network_mode: "host"
       logging:

@@ -49,7 +49,7 @@ plugins:
       verbose: false
 
 nav:
-  - 'Introduction': './index.md'
+  - './index.md'
 
 not_in_nav: |
   /*

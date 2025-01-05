@@ -39,16 +39,16 @@ Now, the development process can begin.
 ```text
 [...]
 
-vi overrides/cover.html.j2
-vi overrides/back_cover.html.j2
+vi overrides_pdf/cover.html.j2
+vi overrides_pdf/back_cover.html.j2
 
 [...]
 
-vi overrides/cover.scss
-vi overrides/paging.scss
-vi overrides/heading.scss
-vi overrides/toc.scss
-vi overrides/fonts.scss
+vi overrides_pdf/cover.scss
+vi overrides_pdf/paging.scss
+vi overrides_pdf/heading.scss
+vi overrides_pdf/toc.scss
+vi overrides_pdf/fonts.scss
 
 [...]
 

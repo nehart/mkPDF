@@ -1,83 +1,166 @@
 # MARKDOWN
 
-Markdown is a markup language used for formatting text with simple syntax. It is commonly used for blogging, websites, comment management services, readme files, and documentation. Unlike HTML, markdown does not use tags to define structure and features. The syntax consists of special characters combined with plain text. <a href="https://blog.greenroots.info/20-useful-markdown-syntaxes-for-developers" target="_blank">[https://blog.greenroots.info]</a>
+Pellentesque ut ex iaculis, hendrerit odio tincidunt, scelerisque mauris. Mauris lobortis nisl vel orci auctor, id suscipit odio dignissim. Nulla facilisi. Aenean ac feugiat nunc. Sed dictum, metus et mattis scelerisque, lorem leo efficitur erat, vel ornare ex dolor in ligula. Nunc ut placerat urna, id gravida neque. Maecenas sed lobortis odio, vel pretium risus. Donec finibus bibendum nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam posuere tellus sit amet turpis auctor, faucibus fermentum orci tempor. Vestibulum dictum consequat arcu, vitae ornare urna volutpat at.
+<a href="https://blog.greenroots.info/20-useful-markdown-syntaxes-for-developers" target="_blank">[https://blog.greenroots.info]</a>
 
-Using Markdown differs from using a WYSIWYG editor. In applications like Word, formatting words and phrases is done by clicking buttons, and changes are immediately visible. However, Markdown is not like that. When creating a Markdown-formatted file, Markdown syntax is added to the text to indicate which words and phrases should look different. <a href="https://www.markdownguide.org/getting-started/" target="_blank">[https://www.markdownguide.org]</a>
+Fusce sed elementum quam. Phasellus ut dolor a sapien gravida sagittis sodales a nulla. Mauris quis nunc auctor, tristique quam feugiat, dapibus leo. Phasellus a cursus tellus, eget porttitor nunc. Donec porttitor tellus sed volutpat luctus. Nullam eleifend a lacus porttitor dictum. Donec vel placerat risus, id aliquet ex. Vestibulum in leo quis purus pharetra tincidunt. Vivamus blandit, arcu ac tempus cursus, ex dui consectetur augue, sed lobortis justo metus ut nisl. Suspendisse sed placerat mauris, sit amet varius nulla.
+<a href="https://www.markdownguide.org/getting-started/" target="_blank">[https://www.markdownguide.org]</a>
 
-<figure markdown="span">
-    ![](images/MDExample01.png){: style="width:90%"}
-    <figcaption></figcaption>
-</figure>
+Nunc lorem turpis, blandit non scelerisque et, mollis in lectus. Nullam congue mi in arcu lobortis, id pharetra purus aliquam. Fusce ultricies dapibus maximus. Nullam magna massa, ullamcorper in erat sit amet, varius fringilla lacus. Phasellus scelerisque ullamcorper elit, et hendrerit elit sagittis non. Mauris mollis tortor eget pulvinar pretium. Nunc suscipit a diam sit amet commodo.
+<a href="https://www.markdownguide.org/getting-started/" target="_blank">[https://www.markdownguide.org]</a>
 
-When you write in Markdown, the text is stored in a plaintext file that has an `.md` extension. Then you need a Markdown application that can process the Markdown file. There are lots of applications available. Despite their visual differences, all of the applications do the same thing. They all convert Markdown-formatted text to HTML. You can see a visual representation of this process below. <a href="https://www.markdownguide.org/getting-started/" target="_blank">[https://www.markdownguide.org]</a>
+## ITALIC Text
 
-<figure markdown="span">
-    ![](images/MDProcess00.png)
-    <figcaption></figcaption>
-</figure>
+Nunc *lorem* turpis, blandit non scelerisque et, mollis in lectus. Nullam congue mi in arcu lobortis, id pharetra purus aliquam. Fusce ultricies dapibus maximus. Nullam magna massa, ullamcorper in erat sit amet, varius fringilla lacus. Phasellus scelerisque ullamcorper elit, et hendrerit elit sagittis non. Mauris mollis tortor eget pulvinar pretium. Nunc suscipit a diam sit amet commodo.
+<a href="https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown" target="_blank">[https://experienceleague.adobe.com]</a> 
+<a href="https://blog.greenroots.info/20-useful-markdown-syntaxes-for-developers" target="_blank">[https://blog.greenroots.info]</a> 
+<a href="https://www.ionos.com/digitalguide/websites/web-development/markdown/" target="_blank">[https://www.ionos.com]</a>
 
-The generated HTML file can then be converted into a number of other formats, such as PDF. <a href="https://www.markdownguide.org/getting-started/" target="_blank">[https://www.markdownguide.org]</a>
+## BOLD Text
 
-## PARAGRAPHS
+Nunc **lorem** turpis, blandit non scelerisque et, mollis in lectus. Nullam congue mi in arcu lobortis, id pharetra purus aliquam. Fusce ultricies dapibus maximus. Nullam magna massa, ullamcorper in erat sit amet, varius fringilla lacus. Phasellus scelerisque ullamcorper elit, et hendrerit elit sagittis non. Mauris mollis tortor eget pulvinar pretium. Nunc suscipit a diam sit amet commodo. 
+<a href="https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown" target="_blank">[https://experienceleague.adobe.com]</a> 
+<a href="https://blog.greenroots.info/20-useful-markdown-syntaxes-for-developers" target="_blank">[https://blog.greenroots.info]</a> 
+<a href="https://www.ionos.com/digitalguide/websites/web-development/markdown/" target="_blank">[https://www.ionos.com]</a>
 
-Paragraphs do not require any special syntax in Markdown. Just use a blank line to create a new paragraph. <a href="https://www.markdownguide.org/basic-syntax/" target="_blank">[https://www.markdownguide.org]</a> <a href="https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown" target="_blank">[https://experienceleague.adobe.com]</a>
+## ITALIC & BOLD Text
 
-<figure markdown="span">
-    ![](images/MDExample02.png){: style="width:90%"}
-    <figcaption></figcaption>
-</figure>
+Nunc ***lorem*** turpis, blandit non scelerisque et, mollis in lectus. Nullam congue mi in arcu lobortis, id pharetra purus aliquam. Fusce ultricies dapibus maximus. Nullam magna massa, ullamcorper in erat sit amet, varius fringilla lacus. Phasellus scelerisque ullamcorper elit, et hendrerit elit sagittis non. Mauris mollis tortor eget pulvinar pretium. Nunc suscipit a diam sit amet commodo.
+<a href="https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown" target="_blank">[https://experienceleague.adobe.com]</a> 
+<a href="https://blog.greenroots.info/20-useful-markdown-syntaxes-for-developers" target="_blank">[https://blog.greenroots.info]</a> 
+<a href="https://www.ionos.com/digitalguide/websites/web-development/markdown/" target="_blank">[https://www.ionos.com]</a>
 
-Markdown makes it easy to create bold and italic text. All you need to do this are asterisks. <a href="https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown" target="_blank">[https://experienceleague.adobe.com]</a> <a href="https://blog.greenroots.info/20-useful-markdown-syntaxes-for-developers" target="_blank">[https://blog.greenroots.info]</a> <a href="https://www.ionos.com/digitalguide/websites/web-development/markdown/" target="_blank">[https://www.ionos.com]</a>
+## STRIKETHROUGH
 
-| Syntax          | Output               |
-| :-------------: | :------------------: |
-| `* [.......] *` | *Italic*             |
-| `** [.....] **` | **Bold**             |
-| `*** [...] ***` | ***Italic & Bold***  |
+Fusce {--interdum--} nulla in velit mollis pretium in et nunc. {--Cras in congue quam--}.
+<a href="https://squidfunk.github.io/mkdocs-material/reference/formatting/" target="_blank">[https://squidfunk.github.io]</a> 
 
-## HEADINGS
+## HIGHLIGHTING
 
-An essential part of any documentation are headings. The heading starts with a `#` character, followed by a space and the heading text. You can go up to six levels, using one `#` for the first level heading, two `#` for the second level, and so on. <a href="https://blog.greenroots.info/20-useful-markdown-syntaxes-for-developers" target="_blank">[https://blog.greenroots.info]</a>
+Fusce {++interdum++} nulla in velit mollis {==pretium==} in et nunc.
+<a href="https://squidfunk.github.io/mkdocs-material/reference/formatting/" target="_blank">[https://squidfunk.github.io]</a> 
 
-/// admonition |
-    type: note
+Curabitur aliquet accumsan quam id fringilla. Donec euismod blandit eros, eget ullamcorper sem dictum eget. Integer eu sem eu dolor lobortis efficitur. Morbi convallis semper interdum. Proin porta leo maximus, efficitur lacus non, porta sapien. Fusce in purus vel est cursus rutrum at ut lorem. Vivamus luctus sapien at ligula ultrices ornare.
+<a href="https://squidfunk.github.io/mkdocs-material/reference/formatting/" target="_blank">[https://squidfunk.github.io]</a> 
 
-```{.text}
-# Lorem Ipsum
+{==
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in congue purus, a feugiat felis. 
-Aenean vehicula pulvinar metus, et lacinia mauris malesuada ac. 
+Pellentesque sem arcu, laoreet eu vestibulum ac, tincidunt vitae mi. Pellentesque eu facilisis risus, vel dictum felis. Maecenas malesuada est rhoncus eros hendrerit venenatis id et risus. Pellentesque dolor ante, efficitur nec odio id, fringilla auctor justo. Nunc venenatis erat vitae arcu auctor fermentum. Nunc convallis dui lorem, eu facilisis ligula mattis vel. Nulla et finibus lorem. Suspendisse potenti.
+<a href="https://squidfunk.github.io/mkdocs-material/reference/formatting/" target="_blank">[https://squidfunk.github.io]</a> 
 
-## Euismod Ante
+==}
 
-Phasellus eu neque orci. Duis viverra dolor a libero finibus congue. In euismod ante sem, vel fermentum 
-lorem rhoncus volutpat. Sed ultricies lorem quis quam lacinia porttitor. Ut egestas convallis ligula a iaculis.
-```
+Nam posuere facilisis rhoncus. Aenean sollicitudin mollis libero, sit amet egestas magna malesuada vitae. Curabitur gravida suscipit metus, eget dictum nisl varius vitae. Aliquam consectetur odio pellentesque libero vehicula pulvinar. Nullam tincidunt tempor enim, eu bibendum mi auctor quis. Donec in felis lacus. Duis vel neque velit. Morbi vel sapien dapibus eros bibendum vulputate et eu ante. Aenean id augue elementum nulla ultrices tincidunt. Donec eu tortor lacus. Phasellus tempor quam vitae neque auctor, eu dictum tortor malesuada. Nunc orci urna, ultrices at hendrerit nec, blandit vel justo. Donec rutrum sem sem, nec blandit mauris mattis in. Suspendisse dolor velit, tempus et vehicula ac, scelerisque ac diam. Vivamus augue nulla, sollicitudin nec finibus sit amet, molestie id mauris.
+<a href="https://squidfunk.github.io/mkdocs-material/reference/formatting/" target="_blank">[https://squidfunk.github.io]</a> 
 
-///
+Curabitur aliquet `accumsan quam id` fringilla. Donec euismod blandit eros, eget ullamcorper sem dictum eget. Integer eu sem eu dolor lobortis efficitur. Morbi convallis semper interdum. Proin porta leo maximus, efficitur lacus non, porta sapien. Fusce in purus vel est cursus rutrum at ut lorem. Vivamus luctus sapien at ligula ultrices ornare.
+<a href="https://squidfunk.github.io/mkdocs-material/reference/formatting/" target="_blank">[https://squidfunk.github.io]</a> 
 
+## SUB- AND SUPERSCRIPTS
 
-## LISTS
+Pellentesque sem arcu, laoreet eu vestibulum a~2~c, tincidunt vitae m^T^i.
+<a href="https://squidfunk.github.io/mkdocs-material/reference/formatting/" target="_blank">[https://squidfunk.github.io]</a> 
 
-Markdown supports the ability to create ordered lists using numbers as well as unordered lists using bullets. <a href="https://learn.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops" target="_blank">[https://learn.microsoft.com]</a>
+# LINE BREAK
+
+Mauris facilisis convallis pulvinar. Aenean porttitor purus in nulla bibendum convallis. Quisque tempor semper porttitor. Aenean fringilla enim efficitur tincidunt tempor. Sed vitae purus nunc. Maecenas sit amet sem non velit mattis porta ac sit amet purus. Aliquam id convallis felis. In a varius augue, id finibus nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+<a href="https://www.markdownguide.org/basic-syntax/" target="_blank">[https://www.markdownguide.org]</a>
+
+***(1)*** Nulla vitae bibendum nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <br>
+***(2)*** Integer convallis, libero sit amet laoreet convallis, augue libero tristique leo, sed ultrices lorem urna malesuada metus. <br>
+***(3)*** Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+Aenean vitae felis at quam tincidunt imperdiet. Nullam pulvinar orci arcu, et feugiat dui pharetra vitae. Nam eu arcu nisl. Vestibulum mattis tortor eu diam hendrerit interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque ut eros a purus fringilla blandit.
+<a href="https://www.markdownguide.org/basic-syntax/" target="_blank">[https://www.markdownguide.org]</a>
+
+# INCLUDEs
+
+Curabitur aliquet accumsan quam id fringilla. Donec euismod blandit eros, eget ullamcorper sem dictum eget. Integer eu sem eu dolor lobortis efficitur. Morbi convallis semper interdum. Proin porta leo maximus, efficitur lacus non, porta sapien. Fusce in purus vel est cursus rutrum at ut lorem. Vivamus luctus sapien at ligula ultrices ornare.
+<a href="https://github.com/mondeja/mkdocs-include-markdown-plugin" target="_blank">[https://github.com]</a>
+
+{!
+    include-markdown "example.md"
+!}
+
+Mauris maximus porttitor dapibus. Maecenas eget egestas diam. Curabitur eget tristique diam. Vestibulum lobortis nunc sed libero fringilla auctor. Praesent mollis a urna sed iaculis. Donec pulvinar lorem eu urna lacinia egestas. Integer nec blandit tortor. Donec ac magna elementum, ultricies libero non, consequat risus. Duis et orci urna. Ut sapien arcu, posuere vel molestie vitae, porttitor euismod ante. Mauris vehicula posuere orci, vitae efficitur lectus facilisis at.
+<a href="https://github.com/mondeja/mkdocs-include-markdown-plugin" target="_blank">[https://github.com]</a>
+
+# LISTS
+
+Markdown supports the ability to create ordered lists using numbers as well as unordered lists using bullets.
+<a href="https://learn.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops" target="_blank">[https://learn.microsoft.com]</a>
 
   * First unordered Item
   * Second unordered Item
   * Third unordered Item
 
-Ordered lists must begin with a number followed by a full stop for each item on the list, and unordered lists must begin with a asterisk. <a href="https://learn.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops" target="_blank">[https://learn.microsoft.com]</a>
+Ordered lists must begin with a number followed by a full stop for each item on the list, and unordered lists must begin with a asterisk.
+<a href="https://learn.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops" target="_blank">[https://learn.microsoft.com]</a>
 
   1. First ordered Item
   2. Second ordered Item
   3. Third ordered Item
 
-# Pellentesque suscipit porta feugiat
+# TABLES
 
-Pellentesque suscipit porta feugiat. Nullam semper metus ante. Proin at rhoncus purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dui neque, scelerisque maximus fringilla fermentum, gravida nec magna. Aenean mi turpis, suscipit sit amet efficitur sed, accumsan sit amet arcu. Suspendisse egestas feugiat dolor. Curabitur ut egestas risus.
+Vivamus at sapien ac augue facilisis dignissim ut in turpis. Sed eget mi cursus, dignissim ante vitae, consequat eros. Cras ultricies venenatis eros, id feugiat ex sodales ut. Maecenas enim lorem, laoreet eget eleifend et, pretium vel eros. Etiam nibh felis, rhoncus ut hendrerit vel, ultricies et leo. Curabitur feugiat justo sapien, at ullamcorper lacus placerat non. Vestibulum eget pretium arcu, ut viverra lorem. Nulla interdum pulvinar turpis, sed pretium mi ullamcorper non. Pellentesque eget urna in diam aliquam convallis eget ut metus.
+<a href="https://squidfunk.github.io/mkdocs-material/reference/data-tables/" target="_blank">[https://squidfunk.github.io]</a>
+<a href="https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/html/" target="_blank">[https://facelessuser.github.io]</a>
 
-# Nulla ligula magna
+/// html | div[style='text-align: center;']
+
+| H_C1_Left_Aligned | H_C2_Center | H_C1_Right_Aligned |
+|:------------------|:-----------:|-------------------:|
+| R1_C1             | R1_C2       | R1_C3              |
+| R2_C1             | R2_C2       | R2_C3              |
+| R3_C1             | R3_C2       | R3_C3              |
+
+///
+
+Donec eros lectus, fringilla ut porta id, fringilla quis sem. Nullam vitae enim augue. Vivamus ac augue vitae arcu bibendum rhoncus quis rutrum magna. Donec eu eros metus. Morbi pulvinar euismod blandit. Nullam id augue feugiat, lacinia tellus a, condimentum neque. Donec ullamcorper nisl quis arcu eleifend, at commodo lectus maximus. Proin eu quam non ligula suscipit laoreet sit amet quis felis. Aliquam odio nibh, pulvinar ut elit vitae, porttitor fringilla turpis. Quisque imperdiet tellus urna, a imperdiet augue sollicitudin vitae. Duis mollis tortor sit amet magna ultrices, ut fermentum massa posuere. Nullam tempor purus eget urna rutrum, eget efficitur turpis tincidunt. Duis sodales facilisis est, a consequat lorem egestas sed. Vivamus nec ultricies mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+<a href="https://squidfunk.github.io/mkdocs-material/reference/data-tables/" target="_blank">[https://squidfunk.github.io]</a>
+<a href="https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/html/" target="_blank">[https://facelessuser.github.io]</a>
+
+# COMMENTS
+
+Nunc lorem turpis, blandit non scelerisque et, mollis in lectus. Nullam congue mi in arcu lobortis, id pharetra purus aliquam. Fusce ultricies dapibus maximus. Nullam magna massa, ullamcorper in erat sit amet, varius fringilla lacus. Phasellus scelerisque ullamcorper elit, et hendrerit elit sagittis non. Mauris mollis tortor eget pulvinar pretium. Nunc suscipit a diam sit amet commodo.
+
+<!-- Nulla facilisi. Donec imperdiet neque quis sem convallis, sed semper lacus mollis. Integer porta mi diam, ut rhoncus erat viverra non. Donec ac eleifend eros. Integer a cursus lacus. -->
+<!-- Nullam aliquam blandit justo non consequat. Curabitur mi enim, congue ac commodo et, iaculis sed sapien. Vivamus tincidunt eros massa, volutpat placerat ante fermentum id. -->
+
+Pellentesque ut ex iaculis, hendrerit odio tincidunt, scelerisque mauris. Mauris lobortis nisl vel orci auctor, id suscipit odio dignissim. Nulla facilisi. Aenean ac feugiat nunc. Sed dictum, metus et mattis scelerisque, lorem leo efficitur erat, vel ornare ex dolor in ligula. Nunc ut placerat urna, id gravida neque. Maecenas sed lobortis odio, vel pretium risus. Donec finibus bibendum nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam posuere tellus sit amet turpis auctor, faucibus fermentum orci tempor. Vestibulum dictum consequat arcu, vitae ornare urna volutpat at.
+
+# HTML CODE
+
+Interdum <b>et</b> malesuada <i>fames</i> a<sub>2</sub>c <span style="color:red;">ante ipsum primis in</span> faucibus. Donec <kbd>eu</kbd> sollicitudin odio, i<sup>2</sup>d auctor odio. Nam pretium, sapien non pretium pulvinar, neque diam lacinia ex, sed placerat augue diam in lorem. Nullam eros lorem, faucibus eu velit vitae, dignissim euismod erat.
+<a href="https://ashki23.github.io/markdown-latex.html" target="_blank">[https://ashki23.github.io]</a>
+<a href="https://www.w3schools.com/html/html_entities.asp" target="_blank">[https://www.w3schools.com]</a>
+<a href="https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/html/" target="_blank">[https://facelessuser.github.io]</a>
+
+&nbsp; &rArr; Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+&nbsp; &rArr; Donec in congue purus, a feugiat felis. Aenean vehicula pulvinar metus, et lacinia mauris malesuada ac.
+
+Vivamus at sapien ac augue facilisis dignissim ut in turpis. Sed eget mi cursus, dignissim ante vitae, consequat eros. Cras ultricies venenatis eros, id feugiat ex sodales ut. Maecenas enim lorem, laoreet eget eleifend et, pretium vel eros. Etiam nibh felis, rhoncus ut hendrerit vel, ultricies et leo. Curabitur feugiat justo sapien, at ullamcorper lacus placerat non. Vestibulum eget pretium arcu, ut viverra lorem. Nulla interdum pulvinar turpis, sed pretium mi ullamcorper non. Pellentesque eget urna in diam aliquam convallis eget ut metus.
+<a href="https://ashki23.github.io/markdown-latex.html" target="_blank">[https://ashki23.github.io]</a>
+<a href="https://www.w3schools.com/html/html_entities.asp" target="_blank">[https://www.w3schools.com]</a>
+<a href="https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/html/" target="_blank">[https://facelessuser.github.io]</a>
+
+/// html | div[style='border: 1px solid red; padding: 5mm; margin-bottom: 3mm;']
+some *markdown* content
+///
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum auctor a sapien in elementum. Morbi ac pellentesque arcu, vitae sagittis magna. Nulla venenatis mi a mattis vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec interdum tristique elit, sit amet tempor lacus. Etiam eu orci ante. Ut consectetur consectetur blandit. Vivamus facilisis, nunc sollicitudin hendrerit ultrices, tortor justo venenatis quam, sed cursus lacus orci volutpat urna.
+<a href="https://ashki23.github.io/markdown-latex.html" target="_blank">[https://ashki23.github.io]</a>
+<a href="https://www.w3schools.com/html/html_entities.asp" target="_blank">[https://www.w3schools.com]</a>
+<a href="https://facelessuser.github.io/pymdown-extensions/extensions/blocks/plugins/html/" target="_blank">[https://facelessuser.github.io]</a>
+
+# CALL OUTs
 
 Nulla ligula magna, ullamcorper ullamcorper mattis at, imperdiet at quam. In faucibus quam in eleifend finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque vehicula dui massa. Etiam quis efficitur turpis, eu lobortis magna. Nullam malesuada pretium purus, vel dapibus metus dapibus at. Morbi a nibh at massa scelerisque accumsan efficitur vitae ante. Aenean nulla ante, mollis at cursus eget, egestas vitae odio. Cras nunc purus, condimentum ut lacus pharetra, auctor tempor purus.
+
+<!-- ############################################### -->
+<!-- ############################################### -->
+<!-- ############################################### -->
 
 /// admonition |
     type: tip
@@ -86,15 +169,31 @@ Nulla id feugiat velit, non gravida metus. In dapibus felis nec metus hendrerit,
 
 ///
 
+<!-- ############################################### -->
+<!-- ############################################### -->
+<!-- ############################################### -->
+
+/// admonition |
+    type: note
+
 Nulla facilisi. Donec imperdiet neque quis sem convallis, sed semper lacus mollis. Integer porta mi diam, ut rhoncus erat viverra non. Donec ac eleifend eros. Integer a cursus lacus. Nullam aliquam blandit justo non consequat. Curabitur mi enim, congue ac commodo et, iaculis sed sapien. Vivamus tincidunt eros massa, volutpat placerat ante fermentum id.
+
+///
+
+<!-- ############################################### -->
+<!-- ############################################### -->
+<!-- ############################################### -->
+
+/// admonition |
+    type: warning
 
 Nunc lorem turpis, blandit non scelerisque et, mollis in lectus. Nullam congue mi in arcu lobortis, id pharetra purus aliquam. Fusce ultricies dapibus maximus. Nullam magna massa, ullamcorper in erat sit amet, varius fringilla lacus. Phasellus scelerisque ullamcorper elit, et hendrerit elit sagittis non. Mauris mollis tortor eget pulvinar pretium. Nunc suscipit a diam sit amet commodo.
 
-## Pellentesque ut ex iaculis
+///
 
-Pellentesque ut ex iaculis, hendrerit odio tincidunt, scelerisque mauris. Mauris lobortis nisl vel orci auctor, id suscipit odio dignissim. Nulla facilisi. Aenean ac feugiat nunc. Sed dictum, metus et mattis scelerisque, lorem leo efficitur erat, vel ornare ex dolor in ligula. Nunc ut placerat urna, id gravida neque. Maecenas sed lobortis odio, vel pretium risus. Donec finibus bibendum nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam posuere tellus sit amet turpis auctor, faucibus fermentum orci tempor. Vestibulum dictum consequat arcu, vitae ornare urna volutpat at.
-
-Fusce sed elementum quam. Phasellus ut dolor a sapien gravida sagittis sodales a nulla. Mauris quis nunc auctor, tristique quam feugiat, dapibus leo. Phasellus a cursus tellus, eget porttitor nunc. Donec porttitor tellus sed volutpat luctus. Nullam eleifend a lacus porttitor dictum. Donec vel placerat risus, id aliquet ex. Vestibulum in leo quis purus pharetra tincidunt. Vivamus blandit, arcu ac tempus cursus, ex dui consectetur augue, sed lobortis justo metus ut nisl. Suspendisse sed placerat mauris, sit amet varius nulla.
+<!-- ############################################### -->
+<!-- ############################################### -->
+<!-- ############################################### -->
 
 /// admonition |
     type: danger
@@ -103,21 +202,57 @@ Nullam blandit urna leo. Nam semper arcu lorem, id lobortis mi elementum ac. Don
 
 ///
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a nisl sed sapien vulputate molestie. Sed ullamcorper sem sit amet arcu volutpat consectetur. Aenean ut ex arcu. Praesent cursus risus eu ante lobortis convallis. Nunc nec nunc leo. Morbi aliquam risus vitae suscipit volutpat. Vivamus pretium sagittis dapibus. Praesent nec justo ut est gravida scelerisque a vitae lorem. Ut id lorem enim.
-
-## Phasellus ac scelerisque ipsum
+<!-- ############################################### -->
+<!-- ############################################### -->
+<!-- ############################################### -->
 
 Phasellus ac scelerisque ipsum. Curabitur ac diam vel massa maximus sollicitudin id non augue. Phasellus at ligula in nibh commodo ultrices id mollis nunc. Donec commodo tellus vel imperdiet posuere. Vestibulum tincidunt, sem iaculis suscipit egestas, urna felis pretium nisi, sit amet suscipit ipsum augue non arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis dignissim sapien ac eleifend semper. Phasellus iaculis, eros ut viverra varius, ipsum nisl cursus lorem, eu lobortis eros odio non arcu. Aenean ornare, odio nec feugiat dictum, eros orci eleifend dui, eget pulvinar magna tellus sit amet lorem. Quisque vel aliquet elit. Duis quis neque ac turpis tempus sollicitudin. Aenean sapien felis, dignissim rhoncus urna ut, tempus luctus est.
 
-## Curabitur vel est euismod
+# CODE BLOCKs
 
-Curabitur vel est euismod, fermentum quam non, rutrum ante. Nulla facilisi. Sed consectetur justo a risus lobortis auctor. Etiam ullamcorper nulla urna, vitae ullamcorper mi malesuada id. Ut sagittis sapien orci. Quisque a commodo odio, tincidunt rutrum augue. Aliquam sem leo, auctor quis felis vitae, venenatis vulputate augue. Nulla ac auctor felis. Etiam eleifend leo augue, sed blandit mauris suscipit id. Curabitur fringilla eros ut varius ultrices. Nullam a nisi sed risus pulvinar pharetra. Quisque nunc orci, bibendum id turpis sed, pharetra vehicula dui. Aliquam id ligula ornare, porta mauris vitae, consequat lorem.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum pretium lectus varius pharetra. Etiam non efficitur nisi. Sed dignissim convallis nunc, et viverra turpis convallis sit amet. Vestibulum ullamcorper convallis enim a tincidunt. Suspendisse varius nisl ipsum, et blandit sem varius vel. Proin scelerisque dui sit amet metus consequat cursus. Donec a condimentum lectus. Nunc eleifend vulputate suscipit. Vestibulum quis quam sed ligula maximus elementum. Sed porta cursus lacinia. Mauris eget laoreet diam, ut maximus purus. Aenean ullamcorper tortor sed mi varius, sit amet euismod nisl pellentesque. Nulla sit amet porta orci. Nulla ut tristique nisi. <a href="https://squidfunk.github.io/mkdocs-material/reference/code-blocks/" target="_blank">[squidfunk.github.io]</a> <a href="https://sm-26.github.io/SWM-Wiki/extensions/codehilite/" target="_blank">[sm-26.github.io]</a>
 
-Nulla a vulputate quam. Nam nec enim vitae massa auctor elementum sit amet eget nunc. Vivamus pulvinar, sem eu semper varius, diam dui sagittis ipsum, vitae viverra dui sem in lectus. Ut in turpis vitae lacus vestibulum mollis. Donec elit risus, dictum gravida varius sit amet, accumsan at mauris. Fusce maximus nibh a augue aliquam efficitur. Donec commodo lacus ut neque finibus luctus. Nullam quam dolor, facilisis id ex eget, consequat gravida est. Aliquam bibendum ut mi eu ultrices. Sed iaculis vestibulum velit, vitae placerat arcu molestie vitae.
+<!-- ############################################### -->
+<!-- ############################################### -->
+<!-- ############################################### -->
 
-# Curabitur vel est euismod
+```{ .python }
+import time
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elementum pretium lectus varius pharetra. Etiam non efficitur nisi. Sed dignissim convallis nunc, et viverra turpis convallis sit amet. Vestibulum ullamcorper convallis enim a tincidunt. Suspendisse varius nisl ipsum, et blandit sem varius vel. Proin scelerisque dui sit amet metus consequat cursus. Donec a condimentum lectus. Nunc eleifend vulputate suscipit. Vestibulum quis quam sed ligula maximus elementum. Sed porta cursus lacinia. Mauris eget laoreet diam, ut maximus purus. Aenean ullamcorper tortor sed mi varius, sit amet euismod nisl pellentesque. Nulla sit amet porta orci. Nulla ut tristique nisi.
+def countdown(time_sec):
+    while time_sec:
+        mins, secs = divmod(time_sec, 60)
+        timeformat = '{:02d}:{:02d}'.format(mins, secs)
+        print(timeformat, end='\r')
+        time.sleep(1)
+        time_sec -= 1
+
+    print("stop")
+
+countdown(5)
+```
+
+Nulla ligula magna, ullamcorper ullamcorper mattis at, imperdiet at quam. In faucibus quam in eleifend finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque vehicula dui massa. Etiam quis efficitur turpis, eu lobortis magna. Nullam malesuada pretium purus, vel dapibus metus dapibus at. Morbi a nibh at massa scelerisque accumsan efficitur vitae ante. Aenean nulla ante, mollis at cursus eget, egestas vitae odio. Cras nunc purus, condimentum ut lacus pharetra, auctor tempor purus.  <a href="https://squidfunk.github.io/mkdocs-material/reference/code-blocks/" target="_blank">[squidfunk.github.io]</a> <a href="https://sm-26.github.io/SWM-Wiki/extensions/codehilite/" target="_blank">[sm-26.github.io]</a>
+
+<!-- ############################################### -->
+<!-- ############################################### -->
+<!-- ############################################### -->
+
+```{ .text }
+theme:
+  features:
+    - content.code.annotate # (1)
+```
+
+<!-- ############################################### -->
+<!-- ############################################### -->
+<!-- ############################################### -->
+
+Nulla a vulputate quam. Nam nec enim vitae massa auctor elementum sit amet eget nunc. Vivamus pulvinar, sem eu semper varius, diam dui sagittis ipsum, vitae viverra dui sem in lectus. Ut in turpis vitae lacus vestibulum mollis. Donec elit risus, dictum gravida varius sit amet, accumsan at mauris. Fusce maximus nibh a augue aliquam efficitur. Donec commodo lacus ut neque finibus luctus. Nullam quam dolor, facilisis id ex eget, consequat gravida est. Aliquam bibendum ut mi eu ultrices. Sed iaculis vestibulum velit, vitae placerat arcu molestie vitae.  <a href="https://squidfunk.github.io/mkdocs-material/reference/code-blocks/" target="_blank">[squidfunk.github.io]</a> <a href="https://sm-26.github.io/SWM-Wiki/extensions/codehilite/" target="_blank">[sm-26.github.io]</a>
+
+<!-- ############################################### -->
+<!-- ############################################### -->
+<!-- ############################################### -->
 
 /// admonition |
     type: tip
@@ -140,7 +275,11 @@ countdown(5)
 
 ///
 
-Nulla sed molestie metus. Sed aliquam tellus id ex pharetra pulvinar. Vivamus ac lacus iaculis, mollis nisi et, tincidunt mi. Aenean condimentum risus vel gravida dictum. Mauris ultricies risus nisl, cursus egestas ante malesuada eget. Nam at urna diam. Nam at pharetra urna. Nulla non eleifend risus. Aenean aliquet mi nibh. Aenean eu ipsum ultricies, volutpat urna scelerisque, vestibulum nisi. Sed sed ipsum sit amet erat lacinia eleifend. Proin a nunc volutpat, iaculis magna id, suscipit eros. Mauris dapibus orci vitae orci gravida scelerisque.
+<!-- ############################################### -->
+<!-- ############################################### -->
+<!-- ############################################### -->
+
+Nulla sed molestie metus. Sed aliquam tellus id ex pharetra pulvinar. Vivamus ac lacus iaculis, mollis nisi et, tincidunt mi. Aenean condimentum risus vel gravida dictum. Mauris ultricies risus nisl, cursus egestas ante malesuada eget. Nam at urna diam. Nam at pharetra urna. Nulla non eleifend risus. Aenean aliquet mi nibh. Aenean eu ipsum ultricies, volutpat urna scelerisque, vestibulum nisi. Sed sed ipsum sit amet erat lacinia eleifend. Proin a nunc volutpat, iaculis magna id, suscipit eros. Mauris dapibus orci vitae orci gravida scelerisque.  <a href="https://squidfunk.github.io/mkdocs-material/reference/code-blocks/" target="_blank">[squidfunk.github.io]</a> <a href="https://sm-26.github.io/SWM-Wiki/extensions/codehilite/" target="_blank">[sm-26.github.io]</a>
 
 /// admonition |
     type: tip
@@ -159,9 +298,15 @@ print("Reversed Number: " + str(reversed_num))
 
 ///
 
-Nulla facilisi. In non bibendum nisi. Duis euismod auctor ullamcorper. Curabitur ut est imperdiet, molestie ligula vitae, porttitor felis. In sed tristique nulla, eu iaculis est. Curabitur tristique erat sapien. Fusce nisl est, malesuada nec venenatis id, hendrerit et mi. Praesent ut diam congue odio pharetra auctor luctus auctor urna. Nulla ac elit lorem. Maecenas felis felis, dapibus et tempus sed, facilisis ac odio. Morbi pretium in risus eu tempor. Mauris laoreet tortor quis ligula convallis, in eleifend neque lobortis. Phasellus dolor metus, tincidunt vel libero imperdiet, euismod congue risus. Nam ut convallis risus, id tincidunt leo. Vivamus a quam metus. Donec non erat eget augue scelerisque ornare.
+<!-- ############################################### -->
+<!-- ############################################### -->
+<!-- ############################################### -->
 
-Nulla ligula magna, ullamcorper ullamcorper mattis at, imperdiet at quam. In faucibus quam in eleifend finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque vehicula dui massa. Etiam quis efficitur turpis, eu lobortis magna. Nullam malesuada pretium purus, vel dapibus metus dapibus at. Morbi a nibh at massa scelerisque accumsan efficitur vitae ante. Aenean nulla ante, mollis at cursus eget, egestas vitae odio. Cras nunc purus, condimentum ut lacus pharetra, auctor tempor purus.
+Nulla facilisi. In non bibendum nisi. Duis euismod auctor ullamcorper. Curabitur ut est imperdiet, molestie ligula vitae, porttitor felis. In sed tristique nulla, eu iaculis est. Curabitur tristique erat sapien. Fusce nisl est, malesuada nec venenatis id, hendrerit et mi. Praesent ut diam congue odio pharetra auctor luctus auctor urna. Nulla ac elit lorem. Maecenas felis felis, dapibus et tempus sed, facilisis ac odio. Morbi pretium in risus eu tempor. Mauris laoreet tortor quis ligula convallis, in eleifend neque lobortis. Phasellus dolor metus, tincidunt vel libero imperdiet, euismod congue risus. Nam ut convallis risus, id tincidunt leo. Vivamus a quam metus. Donec non erat eget augue scelerisque ornare.  <a href="https://squidfunk.github.io/mkdocs-material/reference/code-blocks/" target="_blank">[squidfunk.github.io]</a> <a href="https://sm-26.github.io/SWM-Wiki/extensions/codehilite/" target="_blank">[sm-26.github.io]</a>
+
+<!-- ############################################### -->
+<!-- ############################################### -->
+<!-- ############################################### -->
 
 /// admonition |
     type: tip
@@ -179,71 +324,38 @@ print(list(split(my_list, chunk_size)))
 
 ///
 
-Nulla id feugiat velit, non gravida metus. In dapibus felis nec metus hendrerit, sed viverra nunc bibendum. Suspendisse maximus consectetur dui vitae maximus. Integer condimentum pellentesque tincidunt. Nulla fringilla aliquam lectus. Ut sed ligula tincidunt, congue lorem a, euismod est. Fusce luctus justo justo, sed cursus libero bibendum non. Ut congue nibh vitae bibendum posuere. Pellentesque maximus lacus non velit mattis, eu euismod orci laoreet.
+<!-- ############################################### -->
+<!-- ############################################### -->
+<!-- ############################################### -->
 
-## Nulla facilisi
+Nulla id feugiat velit, non gravida metus. In dapibus felis nec metus hendrerit, sed viverra nunc bibendum. Suspendisse maximus consectetur dui vitae maximus. Integer condimentum pellentesque tincidunt. Nulla fringilla aliquam lectus. Ut sed ligula tincidunt, congue lorem a, euismod est. Fusce luctus justo justo, sed cursus libero bibendum non. Ut congue nibh vitae bibendum posuere. Pellentesque maximus lacus non velit mattis, eu euismod orci laoreet.  <a href="https://squidfunk.github.io/mkdocs-material/reference/code-blocks/" target="_blank">[squidfunk.github.io]</a> <a href="https://sm-26.github.io/SWM-Wiki/extensions/codehilite/" target="_blank">[sm-26.github.io]</a>
 
-Nulla facilisi. Donec imperdiet neque quis sem convallis, sed semper lacus mollis. Integer porta mi diam, ut rhoncus erat viverra non. Donec ac eleifend eros. Integer a cursus lacus. Nullam aliquam blandit justo non consequat. Curabitur mi enim, congue ac commodo et, iaculis sed sapien. Vivamus tincidunt eros massa, volutpat placerat ante fermentum id.
+# ICONS & EMOJIS
 
-## Nunc lorem turpis
+Nullam scelerisque :fontawesome-brands-gitlab: arcu eu lobortis suscipit. Aenean feugiat turpis nulla, eu maximus lectus sagittis nec. In tincidunt nibh ut est gravida, quis sodales magna consectetur. Proin in tortor leo. Quisque eu lacus quam. Mauris at convallis mi. Suspendisse odio eros, convallis eu blandit quis, efficitur eget ex. Mauris vehicula :octicons-logo-github-16: massa sit amet ante pretium molestie. Donec dignissim odio eu pulvinar consequat. <a href="https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search" target="_blank">[squidfunk.github.io]</a>
 
-Nunc lorem turpis, blandit non scelerisque et, mollis in lectus. Nullam congue mi in arcu lobortis, id pharetra purus aliquam. Fusce ultricies dapibus maximus. Nullam magna massa, ullamcorper in erat sit amet, varius fringilla lacus. Phasellus scelerisque ullamcorper elit, et hendrerit elit sagittis non. Mauris mollis tortor eget pulvinar pretium. Nunc suscipit a diam sit amet commodo.
+/// admonition |
+    type: tip
 
-Pellentesque ut ex iaculis, hendrerit odio tincidunt, scelerisque mauris. Mauris lobortis nisl vel orci auctor, id suscipit odio dignissim. Nulla facilisi. Aenean ac feugiat nunc. Sed dictum, metus et mattis scelerisque, lorem leo efficitur erat, vel ornare ex dolor in ligula. Nunc ut placerat urna, id gravida neque. Maecenas sed lobortis odio, vel pretium risus. Donec finibus bibendum nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam posuere tellus sit amet turpis auctor, faucibus fermentum orci tempor. Vestibulum dictum consequat arcu, vitae ornare urna volutpat at.
+<div class="mdx-iconsearch" data-mdx-component="iconsearch">
+  <input
+    class="md-input md-input--stretch mdx-iconsearch__input"
+    placeholder="SEARCH THE ICON AND EMOJI DATABASE"
+    data-mdx-component="iconsearch-query"
+  />
+  <div class="mdx-iconsearch-result" data-mdx-component="iconsearch-result">
+    <div class="mdx-iconsearch-result__meta"></div>
+    <ol class="mdx-iconsearch-result__list"></ol>
+  </div>
+</div>
 
-# Fusce sed elementum quam
+///
 
-Fusce sed elementum quam. Phasellus ut dolor a sapien gravida sagittis sodales a nulla. Mauris quis nunc auctor, tristique quam feugiat, dapibus leo. Phasellus a cursus tellus, eget porttitor nunc. Donec porttitor tellus sed volutpat luctus. Nullam eleifend a lacus porttitor dictum. Donec vel placerat risus, id aliquet ex. Vestibulum in leo quis purus pharetra tincidunt. Vivamus blandit, arcu ac tempus cursus, ex dui consectetur augue, sed lobortis justo metus ut nisl. Suspendisse sed placerat mauris, sit amet varius nulla.
+Curabitur vel est euismod, fermentum quam non, rutrum ante. Nulla facilisi. Sed consectetur justo a risus lobortis auctor. Etiam ullamcorper nulla urna, vitae ullamcorper mi malesuada id. Ut sagittis sapien orci. Quisque a commodo odio, tincidunt rutrum augue. Aliquam sem leo, auctor quis felis vitae, venenatis vulputate augue. Nulla ac auctor felis. Etiam eleifend leo augue, sed blandit mauris suscipit id. Curabitur fringilla eros ut varius ultrices. Nullam a nisi sed risus pulvinar pharetra. Quisque nunc orci, bibendum id turpis sed, pharetra vehicula dui. Aliquam id ligula ornare, porta mauris vitae, consequat lorem. <a href="https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search" target="_blank">[squidfunk.github.io]</a>
 
-Nullam blandit urna leo. Nam semper arcu lorem, id lobortis mi elementum ac. Donec eget odio ex. Aliquam posuere sollicitudin orci, fringilla luctus orci porta id. Fusce in egestas magna. Vivamus aliquam, purus sed interdum porta, purus justo euismod risus, et congue eros lectus et elit. Aliquam tincidunt nec dolor non dapibus. Aenean non pretium dolor. Duis vitae magna ut mi tincidunt fringilla hendrerit eget dolor. Praesent non sodales ipsum. Fusce dignissim pharetra erat vel auctor. Etiam placerat, erat in auctor molestie, mi quam suscipit enim, ultrices lobortis est nisi quis odio. Phasellus et neque vitae sapien consequat commodo. Nulla facilisi. Maecenas sed sollicitudin massa. Quisque orci mi, fringilla eu mi molestie, porta sodales sapien.
+# Mathematics
 
-## Lorem ipsum dolor sit amet
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a nisl sed sapien vulputate molestie. Sed ullamcorper sem sit amet arcu volutpat consectetur. Aenean ut ex arcu. Praesent cursus risus eu ante lobortis convallis. Nunc nec nunc leo. Morbi aliquam risus vitae suscipit volutpat. Vivamus pretium sagittis dapibus. Praesent nec justo ut est gravida scelerisque a vitae lorem. Ut id lorem enim.
-
-Phasellus ac scelerisque ipsum. Curabitur ac diam vel massa maximus sollicitudin id non augue. Phasellus at ligula in nibh commodo ultrices id mollis nunc. Donec commodo tellus vel imperdiet posuere. Vestibulum tincidunt, sem iaculis suscipit egestas, urna felis pretium nisi, sit amet suscipit ipsum augue non arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis dignissim sapien ac eleifend semper. Phasellus iaculis, eros ut viverra varius, ipsum nisl cursus lorem, eu lobortis eros odio non arcu. Aenean ornare, odio nec feugiat dictum, eros orci eleifend dui, eget pulvinar magna tellus sit amet lorem. Quisque vel aliquet elit. Duis quis neque ac turpis tempus sollicitudin. Aenean sapien felis, dignissim rhoncus urna ut, tempus luctus est.
-
-## Curabitur vel est euismod
-
-Curabitur vel est euismod, fermentum quam non, rutrum ante. Nulla facilisi. Sed consectetur justo a risus lobortis auctor. Etiam ullamcorper nulla urna, vitae ullamcorper mi malesuada id. Ut sagittis sapien orci. Quisque a commodo odio, tincidunt rutrum augue. Aliquam sem leo, auctor quis felis vitae, venenatis vulputate augue. Nulla ac auctor felis. Etiam eleifend leo augue, sed blandit mauris suscipit id. Curabitur fringilla eros ut varius ultrices. Nullam a nisi sed risus pulvinar pharetra. Quisque nunc orci, bibendum id turpis sed, pharetra vehicula dui. Aliquam id ligula ornare, porta mauris vitae, consequat lorem.
-
-Nulla a vulputate quam. Nam nec enim vitae massa auctor elementum sit amet eget nunc. Vivamus pulvinar, sem eu semper varius, diam dui sagittis ipsum, vitae viverra dui sem in lectus. Ut in turpis vitae lacus vestibulum mollis. Donec elit risus, dictum gravida varius sit amet, accumsan at mauris. Fusce maximus nibh a augue aliquam efficitur. Donec commodo lacus ut neque finibus luctus. Nullam quam dolor, facilisis id ex eget, consequat gravida est. Aliquam bibendum ut mi eu ultrices. Sed iaculis vestibulum velit, vitae placerat arcu molestie vitae.
-
-## Sed non ex in metus faucibus placerat
-
-Sed non ex in metus faucibus placerat. Sed ultrices quam nibh, malesuada imperdiet nisi ultrices quis. Sed porta, tortor ut euismod iaculis, nibh justo eleifend lectus, vitae ullamcorper diam erat vitae tellus. Aenean feugiat, leo quis efficitur rhoncus, eros nisi cursus dolor, sed ornare neque dolor non purus. Aenean et mauris rhoncus purus congue pellentesque eu at nunc. Etiam faucibus euismod sodales. Cras ac dolor vel mauris auctor maximus. Maecenas malesuada lectus vel eleifend vehicula. Duis hendrerit, mi eget aliquet euismod, mi ante luctus nibh, nec sagittis leo justo in tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam varius non felis sed sagittis. Integer non sapien cursus, accumsan augue sit amet, commodo nibh. Aliquam erat volutpat. Mauris vel leo rhoncus, lacinia nisi in, congue justo.
-
-# At vero eos et
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed {--diam nonumy eirmod tempor--} invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-## Duis autem vel eum
-
-{++Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat++}, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-
-{==Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.==}
-
-## Nam liber tempor cum soluta nobis
-
-Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-
-{==
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
-==}
-
-## vero eos
-
-At vero eos et {==H~2~O==} accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-
-# Nullam scelerisque
-
-Nullam scelerisque :fontawesome-brands-gitlab: arcu eu lobortis suscipit. Aenean feugiat turpis nulla, eu maximus lectus sagittis nec. In tincidunt nibh ut est gravida, quis sodales magna consectetur. Proin in tortor leo. Quisque eu lacus quam. Mauris at convallis mi. Suspendisse odio eros, convallis eu blandit quis, efficitur eget ex. Mauris vehicula :octicons-logo-github-16: massa sit amet ante pretium molestie. Donec dignissim odio eu pulvinar consequat.
-
-# Cras faucibus molestie elit
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus euismod justo sed tincidunt. Nulla fringilla velit elit, ut laoreet nibh lobortis ut. Nam dapibus aliquam lectus, vel pharetra velit fringilla eu. Ut porttitor ornare magna, ac feugiat mi tempor eget. Proin massa dui, hendrerit quis elit at, convallis euismod ligula. Ut vel ex sit amet nisl fringilla vulputate. Donec risus nunc, luctus eget ante et, gravida vulputate risus.
-
-In ut molestie nisl. Aliquam id elit sit amet ligula venenatis blandit ac id enim. Sed vel purus vitae diam vestibulum lobortis. Quisque vehicula nulla in lobortis tincidunt. In nisl est, viverra ac facilisis at, pretium ut eros. Fusce faucibus nisi euismod, pretium dolor id, tristique felis. Fusce eu massa finibus enim congue mattis ac non tortor. Etiam scelerisque ipsum non justo laoreet faucibus. Quisque posuere lorem varius odio convallis pharetra. Integer orci odio, elementum vel malesuada vitae, interdum et quam. Sed convallis laoreet ligula, eu elementum sem interdum at.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus euismod justo sed tincidunt. Nulla fringilla velit elit, ut laoreet nibh lobortis ut. Nam dapibus aliquam lectus, vel pharetra velit fringilla eu. Ut porttitor ornare magna, ac feugiat mi tempor eget. Proin massa dui, hendrerit quis elit at, convallis euismod ligula. Ut vel ex sit amet nisl fringilla vulputate. Donec risus nunc, luctus eget ante et, gravida vulputate risus. <a href="https://squidfunk.github.io/mkdocs-material/reference/math/" target="_blank">[squidfunk.github.io]</a> <a href="https://katex.org/docs/supported" target="_blank">[katex.org]</a>
 
 ```math
 \begin{aligned}
@@ -251,7 +363,7 @@ f(x) = \int^a_b \frac{1}{3}x^3
 \end{aligned}
 ```
 
-Vestibulum ac lacinia odio, at rhoncus lacus. Cras faucibus molestie elit, at volutpat sapien cursus non. Sed mollis mollis nulla, in commodo sapien mollis in. Pellentesque at rutrum sem, in ultricies elit. Maecenas convallis mi quis nulla cursus, at tincidunt orci pretium. Vestibulum aliquet nec nibh sed ullamcorper. Fusce elementum egestas odio sit amet auctor. Praesent sapien tortor, maximus vitae sem vel, tempor vulputate sem.
+Vestibulum ac lacinia odio, at rhoncus lacus. Cras faucibus molestie elit, at volutpat sapien cursus non. Sed mollis mollis nulla, in commodo sapien mollis in. Pellentesque at rutrum sem, in ultricies elit. Maecenas convallis mi quis nulla cursus, at tincidunt orci pretium. Vestibulum aliquet nec nibh sed ullamcorper. Fusce elementum egestas odio sit amet auctor. Praesent sapien tortor, maximus vitae sem vel, tempor vulputate sem. <a href="https://squidfunk.github.io/mkdocs-material/reference/math/" target="_blank">[squidfunk.github.io]</a> <a href="https://katex.org/docs/supported" target="_blank">[katex.org]</a>
 
 ```math
 \begin{aligned}
@@ -264,11 +376,7 @@ Vestibulum ac lacinia odio, at rhoncus lacus. Cras faucibus molestie elit, at vo
 \end{aligned}
 ```
 
-Suspendisse eu feugiat enim. Vestibulum id venenatis ante. Sed ut risus semper, ullamcorper magna ut, pulvinar mauris. Nunc eu sapien faucibus, accumsan leo et, finibus purus. Curabitur sit amet rutrum odio. Donec et dapibus turpis, luctus dictum nulla. Sed dapibus venenatis quam, vel efficitur augue laoreet a. Quisque ullamcorper, diam vitae mattis blandit, tellus elit sodales lacus, feugiat pellentesque sem tortor a mi. Nullam ac mi lacus. Etiam dapibus, urna non interdum laoreet, magna turpis tincidunt magna, nec sollicitudin velit turpis a enim. Nulla placerat sem ut nibh finibus egestas. Praesent vehicula cursus purus, non malesuada sem vulputate faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean tempus eros sed leo aliquet vehicula. Etiam gravida sem ipsum, in pretium ligula eleifend eget.
-
-## Sed nec risus nunc
-
-Sed nec risus nunc. Sed dui augue, facilisis id sem at, pharetra blandit neque. Phasellus condimentum enim in erat laoreet, mattis ultrices ipsum sollicitudin. Suspendisse bibendum fringilla laoreet. Nunc fermentum mattis nunc a lacinia. Aliquam luctus dui dolor, et vestibulum metus sagittis quis. Cras a eros sed nunc sodales porta eget in urna.
+Suspendisse eu feugiat enim. Vestibulum id venenatis ante. Sed ut risus semper, ullamcorper magna ut, pulvinar mauris. Nunc eu sapien faucibus, accumsan leo et, finibus purus. Curabitur sit amet rutrum odio. Donec et dapibus turpis, luctus dictum nulla. Sed dapibus venenatis quam, vel efficitur augue laoreet a. Quisque ullamcorper, diam vitae mattis blandit, tellus elit sodales lacus, feugiat pellentesque sem tortor a mi. Nullam ac mi lacus. Etiam dapibus, urna non interdum laoreet, magna turpis tincidunt magna, nec sollicitudin velit turpis a enim. Nulla placerat sem ut nibh finibus egestas. Praesent vehicula cursus purus, non malesuada sem vulputate faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean tempus eros sed leo aliquet vehicula. Etiam gravida sem ipsum, in pretium ligula eleifend eget. <a href="https://squidfunk.github.io/mkdocs-material/reference/math/" target="_blank">[squidfunk.github.io]</a> <a href="https://katex.org/docs/supported" target="_blank">[katex.org]</a>
 
 ```math
 \begin{aligned}
@@ -281,19 +389,12 @@ Sed nec risus nunc. Sed dui augue, facilisis id sem at, pharetra blandit neque. 
 \end{aligned}
 ```
 
-Nullam dignissim id velit eu iaculis. Fusce eu arcu condimentum, lobortis ex quis, ultrices enim. Vivamus luctus sollicitudin nunc at finibus. Nullam malesuada pulvinar laoreet. Duis aliquam tellus in lectus tempor, sed finibus mauris ultricies. Mauris luctus ut mi in dapibus. Donec erat odio, auctor eget imperdiet vel, tristique quis leo. Mauris sed nisl suscipit, venenatis mi eu, imperdiet leo.
-
-## Aliquam consectetur molestie nisi et gravida
-
-Aliquam consectetur molestie nisi et gravida. Maecenas quis purus maximus, elementum ipsum vel, porttitor est. Phasellus consequat est at sapien dictum, non suscipit sapien ullamcorper. Fusce ultrices diam magna, a vulputate lacus aliquam non. Aliquam luctus, lorem ullamcorper lacinia malesuada, massa velit iaculis velit, sit amet efficitur nisl urna et nisl. Nulla facilisi. Mauris venenatis maximus quam, tempus ornare dolor viverra et. Nunc at turpis sed ante vestibulum porttitor ac non purus. Etiam et molestie nisl. Aenean sem enim, faucibus at est in, placerat mollis libero. Nulla facilisi. Nulla facilisi. Nam mollis ultrices dolor a consectetur. Phasellus hendrerit ex non nulla consequat placerat. Donec quis elit ex. In in nibh ut nulla gravida posuere eu a massa.
-
-## Praesent quam metus
-
-Praesent quam metus, tincidunt eleifend suscipit ac, posuere id dolor. In vestibulum quis arcu id egestas. Maecenas nisi lectus, tincidunt at nunc id, rutrum imperdiet mi. Suspendisse sed ipsum egestas, efficitur elit et, pharetra nisl. Donec tempor dui eu nunc blandit, quis lobortis massa lobortis. Aliquam ultricies neque non feugiat vestibulum. In hac habitasse platea dictumst. Donec luctus commodo lacinia. Phasellus sed ipsum vestibulum diam consectetur semper. Quisque aliquam sem arcu. Nulla pulvinar auctor odio, ac tempor neque auctor cursus. Sed nunc urna, sodales quis consectetur vitae, sollicitudin a sem. Integer eu turpis eu nibh sodales rutrum nec ac purus. Duis tincidunt eget sem vitae consequat. Integer efficitur molestie felis at semper. Duis fringilla massa nec ex tempor, ut ornare odio rutrum.
+Nullam dignissim id velit eu iaculis. Fusce eu arcu condimentum, lobortis ex quis, ultrices enim. Vivamus luctus sollicitudin nunc at finibus. Nullam malesuada pulvinar laoreet. Duis aliquam tellus in lectus tempor, sed finibus mauris ultricies. Mauris luctus ut mi in dapibus. Donec erat odio, auctor eget imperdiet vel, tristique quis leo. Mauris sed nisl suscipit, venenatis mi eu, imperdiet leo. <a href="https://squidfunk.github.io/mkdocs-material/reference/math/" target="_blank">[squidfunk.github.io]</a> <a href="https://katex.org/docs/supported" target="_blank">[katex.org]</a>
 
 /// admonition |
     type: danger
 
+<br>
 ```math
 \begin{aligned}
 \frac{d}{dx}(x\sin(x^2))  &= x\frac{d}{dx}(\sin(x^2)) + \sin(x^2)\frac{d}{dx}(x) \\
@@ -302,106 +403,62 @@ Praesent quam metus, tincidunt eleifend suscipit ac, posuere id dolor. In vestib
                           &= 2x^2\cos(x^2) + \sin(x^2)
 \end{aligned}
 ```
+<br>
 
 ///
 
-Aenean sed scelerisque diam. Curabitur condimentum risus posuere elit commodo feugiat. Maecenas porta felis neque, et accumsan eros tristique ut. Sed ac elit nibh. Sed a ipsum nisl. Sed enim libero, molestie facilisis nisl a, ullamcorper placerat magna. Vivamus at dolor non purus venenatis finibus et et quam. Donec elementum lorem sed elit auctor tempor. Mauris imperdiet vehicula quam ut accumsan. Maecenas sapien leo, tincidunt ut ligula vel, tempus fermentum magna. Etiam bibendum hendrerit rutrum.
+Aenean sed scelerisque diam. Curabitur condimentum risus posuere elit commodo feugiat. Maecenas porta felis neque, et accumsan eros tristique ut. Sed ac elit nibh. Sed a ipsum nisl. Sed enim libero, molestie facilisis nisl a, ullamcorper placerat magna. Vivamus at dolor non purus venenatis finibus et et quam. Donec elementum lorem sed elit auctor tempor. Mauris imperdiet vehicula quam ut accumsan. Maecenas sapien leo, tincidunt ut ligula vel, tempus fermentum magna. Etiam bibendum hendrerit rutrum. <a href="https://squidfunk.github.io/mkdocs-material/reference/math/" target="_blank">[squidfunk.github.io]</a> <a href="https://katex.org/docs/supported" target="_blank">[katex.org]</a>
 
-$$
+```math
 \begin{align}
 2x^2 + 3(x-1)(x-2)  &= 2x^2 + 3(x^2-3x+2)\\ 
 \nonumber           &= 2x^2 + 3x^2 - 9x + 6\\ 
                     &= 5x^2 - 9x + 6
 \end{align}
-$$
-
-Aliquam erat volutpat. Pellentesque ut blandit justo. Quisque placerat, urna nec porttitor tincidunt, neque odio aliquam est, ut porttitor lectus nulla quis est. Praesent non ante eu magna dignissim volutpat. Fusce quis mollis lectus. Proin sed lacus sit amet sem cursus imperdiet. Nam convallis felis enim, non cursus metus tincidunt ut. Donec pretium feugiat sem, eget tristique arcu iaculis ac. Nullam pulvinar nisl ac congue consectetur. Curabitur consectetur sed risus non feugiat. Vivamus ultricies augue ac felis hendrerit, eget tristique nunc faucibus. Mauris luctus ac nibh vitae pretium. Phasellus a purus nunc. Quisque id iaculis orci. In tincidunt, ex nec interdum volutpat, velit lectus semper velit, vel vehicula metus lacus in dolor.
-
-/// admonition |
-    type: danger
-
-```math
-\begin{aligned}
-    \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
-\end{aligned}
 ```
 
-///
+Aenean sed scelerisque diam. Curabitur condimentum risus posuere elit commodo feugiat. Maecenas porta felis neque, et accumsan eros tristique ut. Sed ac elit nibh. Sed a ipsum nisl. Sed enim libero, molestie facilisis nisl a, ullamcorper placerat magna. Vivamus at dolor non purus venenatis finibus et et quam. Donec elementum lorem sed elit auctor tempor. Mauris imperdiet vehicula quam ut accumsan. Maecenas sapien leo, tincidunt ut ligula vel, tempus fermentum magna. Etiam bibendum hendrerit rutrum. <a href="https://squidfunk.github.io/mkdocs-material/reference/math/" target="_blank">[squidfunk.github.io]</a> <a href="https://katex.org/docs/supported" target="_blank">[katex.org]</a>
 
-Phasellus id sodales orci. Phasellus ut odio lobortis, imperdiet quam eget, semper dui. Proin interdum in ligula a malesuada. Suspendisse $\int_0^\infty \frac{x^3}{e^x-1}\,dx$ id ullamcorper nisl, in cursus purus. Aliquam in posuere urna. Nam ultricies dapibus urna, quis pulvinar libero venenatis a. Sed diam eros, sollicitudin interdum elit quis, porttitor gravida turpis. Proin elementum nisl nec nisi suscipit, vitae tristique felis hendrerit. In nec dignissim ipsum. Nunc id risus id diam volutpat laoreet et accumsan est. In hac habitasse platea dictumst. Integer dui sapien, porttitor a dolor id, feugiat faucibus tortor. Vestibulum eu lorem sed quam vehicula convallis. Pellentesque quis pharetra metus.
+# PAGE BREAK
 
-Donec $F(a) = m \cdot a$ rutrum urna tellus, eget molestie lorem volutpat pulvinar.
+Quisque vel ex eu ex cursus interdum non non eros. Integer euismod diam non orci pharetra finibus. Morbi pharetra risus quis nisi sollicitudin, non luctus turpis scelerisque. Mauris commodo vitae nisl sed feugiat. Cras vitae metus a turpis eleifend convallis et ac erat. Maecenas tempor justo elit, et pretium est varius at. Donec luctus purus sit amet dolor mattis, a commodo nulla scelerisque. Sed malesuada ullamcorper leo at lacinia. Vestibulum a nunc porta, congue arcu vel, cursus leo. Nam fringilla tincidunt nulla vitae rhoncus. Morbi pellentesque enim in dictum fermentum. Suspendisse potenti. Cras gravida augue dictum suscipit feugiat.
 
-## Duis tincidunt urna vel venenatis tristique
+<div style="page-break-after: always;"></div>
 
-Duis tincidunt urna vel venenatis tristique. Praesent eleifend cursus tortor, sed gravida lacus sagittis eget. Ut ut maximus dui. Vestibulum vitae facilisis magna, quis tristique dolor. Fusce non euismod sapien. Aenean eu mollis nulla, quis venenatis sapien. Suspendisse sit amet fermentum neque, elementum mattis odio. Nulla tincidunt iaculis auctor. Nam pulvinar dictum iaculis. Nulla pharetra arcu et bibendum lobortis.
-
-# Sed aliquam non tellus in volutpat
-
-Sed aliquam non tellus in volutpat. Suspendisse sagittis non sapien eget convallis. Proin felis ex, facilisis vitae tristique eget, consectetur eu lectus. Donec euismod vitae mi mattis iaculis. Nullam urna diam, vestibulum nec nisi nec, consectetur consectetur sapien. Duis quis mi nibh. Fusce condimentum velit eget diam malesuada fringilla. Vivamus vel feugiat nulla. Proin eget nisl ante. Suspendisse potenti. Sed venenatis cursus arcu. Nulla sagittis ligula diam, tincidunt interdum mi consequat vitae. Curabitur commodo libero sit amet sagittis ornare.
-
-![](assets/images/title.png){ align=left }
-
-Aenean maximus laoreet enim, non tempor nisi. Cras a mauris et mi tristique aliquam quis sed purus. Nunc metus elit, faucibus vitae tristique eget, sollicitudin at sem. Phasellus consectetur urna eget consectetur euismod. Phasellus nibh eros, iaculis ut sodales dictum, pulvinar vitae mauris. Aenean faucibus tortor nec libero molestie, non laoreet purus rhoncus. Ut sed magna ex. Suspendisse et iaculis dui. Quisque urna tellus, varius ac augue sed, tincidunt tristique massa. Morbi in neque pretium elit venenatis mollis at nec odio. Ut venenatis vel metus nec placerat. Ut quis libero vestibulum turpis posuere interdum in quis sapien. Maecenas maximus est in nunc aliquet rhoncus.
-
-## Cras laoreet lacus ut
-
-Cras laoreet lacus ut massa dignissim tempor. Pellentesque ut nulla nisl. Nunc nec nunc et libero auctor auctor eu et enim. Phasellus posuere tempus efficitur. Etiam eu rhoncus est. Donec sed pharetra lorem, non dictum diam. Nullam nec ornare erat.
-
-Fusce vitae arcu tellus. Fusce vitae eros pellentesque, ullamcorper metus sed, ornare eros. Aenean ac mollis elit. Integer a risus quis arcu pulvinar commodo. Nam non pulvinar dolor. Proin ultrices non eros nec pretium. Sed ut ipsum vel mauris semper maximus. Praesent eleifend semper lorem, ac interdum risus. Sed ut purus et ligula interdum luctus vitae eu nisl. Donec id viverra felis.
-
-## Phasellus accumsan eros turpis
-Phasellus accumsan eros turpis. Pellentesque fermentum ante id felis commodo aliquam. In dapibus sagittis aliquam. Integer ut suscipit leo. Nulla pretium mi lobortis, accumsan sapien sit amet, ultrices dui. Integer vitae gravida sapien. Fusce rutrum odio lorem, nec finibus mi feugiat at. Aliquam erat volutpat.
-
-Curabitur id metus vehicula, eleifend metus at, lobortis ante. Nam fermentum sem non enim euismod mollis. Sed tempor finibus tempor. Pellentesque eu ante efficitur, condimentum dui nec, varius felis. Aliquam et urna pharetra, fermentum lacus a, sagittis sem. Nullam purus velit, laoreet nec urna sit amet, placerat scelerisque metus. Nam in lacus vitae lacus auctor suscipit. Phasellus erat tellus, laoreet id neque nec, laoreet mollis dui. Suspendisse in ullamcorper nibh, eu vehicula ex. Mauris vel nisi nisl.
-
-![](assets/images/title.png){ align=right }
-
-Phasellus rutrum est ac elementum dignissim. Donec at vestibulum ante, vitae commodo lorem. Etiam ut nisl eu felis malesuada suscipit. Integer ultricies molestie consequat. Nulla non tellus tincidunt, tristique diam tincidunt, mollis est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat porta dapibus. Morbi ut lorem efficitur sapien faucibus convallis non non neque. In et lobortis velit. Ut in felis a dolor hendrerit maximus a sed velit. Maecenas congue mattis neque eu semper. Nulla ultricies, ipsum dignissim pellentesque commodo, tortor nulla cursus arcu, ac efficitur erat libero id ante.
-
-Donec nec malesuada risus. Etiam luctus non turpis in laoreet. Nulla facilisi. Fusce efficitur dolor eget magna laoreet, vel lacinia mi laoreet. Donec pellentesque maximus quam dictum eleifend. Praesent interdum lobortis orci sit amet facilisis. Mauris nec justo sit amet mi pretium elementum. Phasellus scelerisque, felis eu imperdiet consequat, lacus urna imperdiet arcu, in pellentesque justo erat ut ante. Etiam at molestie libero. Nullam ullamcorper tincidunt maximus.
-
-## Aliquam mattis mi massa
-
-Aliquam mattis mi massa, vitae dapibus erat ornare id. Aenean aliquam, ex a viverra malesuada, nisl magna ullamcorper nibh, ullamcorper porttitor nulla ipsum maximus sem. Sed tristique tristique dapibus. Sed eu tortor et lectus auctor scelerisque non ac odio. Mauris congue mi in venenatis feugiat. Sed molestie mi eros, luctus tempor odio interdum eget. Praesent laoreet dui nec nibh aliquet ornare. Aliquam molestie ex nec mattis pulvinar. Proin nec velit tellus.
-
-Proin vehicula urna egestas, pellentesque neque nec, mattis enim. Suspendisse et vestibulum ligula, ut sodales magna. Nulla facilisi. Nam vitae odio convallis, aliquam nunc nec, ultrices mauris. Vestibulum mollis metus nisl, id molestie nisl lobortis nec. Ut efficitur pretium felis. Proin feugiat quis sem eget consequat. Aenean dignissim malesuada dapibus. Phasellus eget leo non lorem placerat venenatis non vitae mi.
-
-Aenean dui purus, mollis ut quam ut, sodales porta dolor. Morbi enim urna, luctus et libero eu, varius varius mi. Duis gravida placerat sodales. Suspendisse leo ligula, viverra a volutpat ac, scelerisque vel erat. Proin tempus sem ac elit porttitor, at ultrices lectus tempus. Cras feugiat, dolor sit amet fringilla ullamcorper, sapien leo blandit lorem, ac aliquam elit est nec mi. Cras hendrerit massa non elementum tristique. Proin ligula mauris, hendrerit vitae neque sed, pretium viverra mi. Vestibulum egestas ligula tristique ligula fermentum, ut imperdiet elit cursus. Fusce tincidunt tortor quis est fermentum scelerisque. Phasellus pretium sollicitudin sapien, eget sodales nunc vehicula nec. Nam eget condimentum tellus, in luctus mauris. Nulla condimentum libero lectus, vel vulputate libero rutrum sit amet. Etiam ultricies, tellus sit amet aliquet eleifend, urna quam varius nulla, sed tempus neque neque eget enim. Sed tristique dapibus quam a vulputate.
-
-![](assets/images/title.png)
-
-Praesent ac risus venenatis, feugiat justo eu, consequat turpis. Sed vel diam nunc. Phasellus dictum ac purus sed volutpat. Donec ut leo at lorem ullamcorper egestas. Mauris quis velit nibh. Praesent tincidunt aliquam leo vel porttitor. Aenean aliquet pharetra sapien ac imperdiet. Phasellus non tincidunt dolor. Aliquam lectus arcu, pellentesque et ultrices condimentum, tristique ultrices ante. Praesent interdum tortor eget elit aliquet, sit amet dapibus diam aliquam. Quisque tempus, enim at eleifend laoreet, mi odio molestie turpis, et consequat ligula magna eu diam. Phasellus maximus erat sed mi pharetra, vitae rhoncus nisi consequat.
-
-Quisque libero nibh, sagittis at nisl ac, tincidunt scelerisque est. Suspendisse condimentum vulputate pretium. Nullam euismod, risus nec facilisis faucibus, orci risus mollis sapien, id tempus ante purus id quam. Donec pretium elit placerat augue tincidunt maximus. Etiam consectetur mollis nulla, non tempor justo commodo et. Sed et gravida ex, pretium pharetra tortor. Nulla at sapien consectetur, rutrum nunc at, congue erat. Phasellus dolor lorem, maximus vel ullamcorper ut, convallis id tellus. Nunc auctor enim nec velit facilisis accumsan. Phasellus commodo diam et lorem euismod, in convallis sem consequat. Proin a ullamcorper nisl.
-
-Nullam ac justo mauris. Nunc enim quam, tincidunt et bibendum a, consequat quis sapien. Integer tincidunt aliquet sem, at consequat dui aliquet eget. Mauris pulvinar eu lorem in varius. In rutrum orci ante, eget tristique felis vestibulum et. Suspendisse malesuada luctus ante vitae gravida. Nam et eleifend massa.
-
-## Aliquam a ipsum lobortis
+# Pictures
 
 Aliquam a ipsum lobortis, accumsan sapien quis, luctus tortor. Fusce vitae purus mattis augue egestas dapibus. Aliquam a lorem a lorem sodales sagittis nec vel lacus. Aliquam blandit quam ut enim porta, non semper erat porta. Etiam et sem sit amet nisl vehicula malesuada et non eros. Etiam blandit dictum massa et finibus. Fusce tincidunt tristique erat, a egestas nunc fermentum nec. Nunc aliquet accumsan ipsum non faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris ultricies eros eu tempus facilisis. Donec a consectetur turpis, a tincidunt tellus. Praesent commodo, tellus id ultrices eleifend, justo nunc condimentum justo, ut aliquet ex lorem vel ante. Donec fermentum interdum ex, nec tincidunt risus. Etiam dapibus lorem eu lobortis tristique. Maecenas non metus a eros rutrum imperdiet.
-
-Phasellus sit amet gravida purus. Morbi congue pellentesque placerat. Suspendisse ut ante eu mi tincidunt laoreet. Nam nibh massa, pulvinar ut tempus vitae, aliquet bibendum ante. Maecenas elementum sapien sit amet orci consequat mollis. Nullam a congue nunc, sed fringilla est. Nulla molestie id lectus in commodo. Curabitur gravida lacus dolor, quis imperdiet ligula dapibus vel. Nunc quis dui sed lectus ultricies convallis. Morbi viverra scelerisque lorem, sed molestie diam cursus et. Sed massa metus, hendrerit blandit sem id, porta faucibus mi. Donec id dui molestie, sodales dui sit amet, tempus nisi.
-
-Fusce laoreet aliquet auctor. Donec erat justo, rhoncus id leo sit amet, venenatis tempor massa. Donec justo nisl, pharetra sit amet turpis ut, eleifend iaculis dolor. Nullam ultrices libero nulla, vitae efficitur sapien rhoncus sit amet. Fusce ut diam rutrum, tincidunt orci eget, imperdiet diam. Aenean venenatis facilisis tellus. Nulla viverra congue blandit. Aliquam lectus justo, vehicula vel congue non, commodo vitae justo.
+<a href="https://squidfunk.github.io/mkdocs-material/reference/images/" target="_blank">[https://squidfunk.github.io]</a>
 
 <figure markdown="span">
-  ![](assets/images/title.png)
+  ![](assets/images/title.png){width="150"}
   <figcaption></figcaption>
 </figure>
 
 Quisque suscipit lorem non malesuada mattis. Quisque tristique malesuada velit sit amet aliquet. Praesent at nibh eu augue varius pharetra. Phasellus in imperdiet enim. Mauris finibus metus purus. Phasellus bibendum neque sapien, vitae consectetur ex porta in. Sed sed velit libero. Donec semper aliquam laoreet. Sed at arcu ut ipsum rhoncus tincidunt. Sed tincidunt malesuada lacus, nec imperdiet nibh posuere ac.
+<a href="https://squidfunk.github.io/mkdocs-material/reference/images/" target="_blank">[https://squidfunk.github.io]</a>
 
-## Proin elit libero
+# PlantUML
 
 Proin elit libero, faucibus in libero a, finibus eleifend orci. Quisque auctor justo sit amet magna fringilla, in volutpat mi pulvinar. Quisque sit amet molestie ligula, ac iaculis lacus. Suspendisse eu tortor eget nisl rhoncus molestie eget quis magna. Morbi ornare, diam eu maximus ultricies, risus leo finibus nunc, a rutrum sapien lacus a leo. Aliquam sed cursus dui, sed accumsan nunc. Nullam at turpis et erat aliquet sagittis ac sed ante. Phasellus ultrices nulla eget venenatis euismod.
+<a href="https://github.com/mikitex70/plantuml-markdown" target="_blank">[https://github.com]</a>
+<a href="https://plantuml.com" target="_blank">[https://plantuml.com]</a>
+<a href="https://pdf.plantuml.net/PlantUML_Language_Reference_Guide_en.pdf" target="_blank">[https://pdf.plantuml.net]</a>
+<a href="https://crashedmind.github.io/PlantUMLHitchhikersGuide" target="_blank">[https://crashedmind.github.io]</a>
+
+<figure markdown="span">
+```plantuml
+@startuml
+    Alice->Bob: Authentication Request
+    note right of Bob: Bob thinks about it
+    Bob->Alice: Authentication Response
+@enduml
+```
+</figure>
 
 Nam convallis leo ac sem porttitor, in lacinia leo vestibulum. Suspendisse blandit massa eget malesuada accumsan. Sed feugiat metus id arcu fermentum accumsan. Nam volutpat risus a sem condimentum tempor eu vulputate odio. Aliquam posuere risus diam, vel egestas est dapibus eget. Nullam nec lorem ut lectus gravida commodo ut non ante. Praesent malesuada molestie consectetur. Vestibulum et nunc et libero gravida tempus et vel est. Nunc fringilla turpis a ligula venenatis dictum. Praesent tristique ligula nec sapien porta pretium.
+<a href="https://github.com/mikitex70/plantuml-markdown" target="_blank">[https://github.com]</a>
+<a href="https://plantuml.com" target="_blank">[https://plantuml.com]</a>
+<a href="https://pdf.plantuml.net/PlantUML_Language_Reference_Guide_en.pdf" target="_blank">[https://pdf.plantuml.net]</a>
+<a href="https://crashedmind.github.io/PlantUMLHitchhikersGuide" target="_blank">[https://crashedmind.github.io]</a>
 
-Praesent vel arcu vel turpis efficitur pharetra vitae et metus. Suspendisse potenti. Nulla fermentum, ante nec consectetur efficitur, sem nunc elementum neque, sed cursus ante risus non ex. Suspendisse dignissim vestibulum sollicitudin. Curabitur ut ligula sagittis, dictum enim sed, iaculis dolor. Donec et nisi a velit suscipit sodales in ut mauris. Nunc id vestibulum nisi, vel aliquam eros. Morbi et viverra neque, nec feugiat metus. Phasellus tempus urna ut sapien faucibus pulvinar.
-
-## Nunc dictum
-
-Nunc dictum, lacus non tempus accumsan, leo est tristique arcu, vel malesuada quam libero ac arcu. Duis feugiat libero metus, non maximus arcu blandit vel. Donec sollicitudin ligula purus, eget pulvinar ex maximus in. Sed porta ex in congue tempor. Duis sollicitudin ornare tempus. In dapibus eu massa vel semper. Suspendisse potenti. Vestibulum sollicitudin felis ac turpis pretium dapibus vitae ut tortor.
-
-Nunc sodales odio non elit pellentesque pellentesque. Aliquam fringilla felis id odio auctor, tempor facilisis felis congue. Integer in nisi facilisis, lobortis justo nec, ornare sem. Curabitur nec nisl ac lacus varius sagittis. Ut in purus tempus, pulvinar dui vel, aliquet turpis. Quisque vulputate non neque eu bibendum. Duis luctus neque vitae arcu molestie congue. Sed consequat velit dolor, non gravida diam lobortis vitae. Integer sit amet enim eu justo luctus ultrices. Cras suscipit nibh id leo viverra blandit. Mauris sed felis id neque gravida tempus. Duis sodales congue nulla et venenatis.
