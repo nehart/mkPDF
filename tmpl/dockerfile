@@ -12,7 +12,7 @@ FROM registry.ans.co.at/templates/nndocs/nndocs:V1.1.0-B2024100103
 # #################
 #
 
-ENV MKPDF_VERSION="1.2.0"
+ENV MKPDF_VERSION="2.1.0"
 ENV MKPDF_IMAGE_MAINTAINER='Norbert EHART (norbert@ehart.net)'
 
 #
