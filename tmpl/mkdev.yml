@@ -8,7 +8,25 @@ watch:
   - 'overrides_mkdocs'
 
 theme:
+  name: 'material'
+  logo: !!python/object/apply:os.getenv ["MKPDF_LOGO_FILE"]
+  favicon: !!python/object/apply:os.getenv ["MKPDF_FAVICON_FILE"]
   custom_dir: 'overrides_mkdocs'
+  features:
+    - 'navigation.sections'
+  palette:
+    - scheme: 'default'
+      primary: 'blue'
+      accent: 'green'
+      toggle:
+        icon: 'material/brightness-7'
+        name: 'Dark Mode'
+    - scheme: 'slate'
+      primary: 'brown'
+      accent: 'green'
+      toggle:
+        icon: 'material/brightness-4'
+        name: 'Light Mode'
 
 plugins:
   - include-markdown:
