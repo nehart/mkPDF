@@ -4,9 +4,7 @@ The objective of this project is to enhance the user experience of building a PD
 <img src="images/mkpdf.png" height="350">
 </div>
 
-This tutorial was created by Norbert EHART (norbert@ehart.net) in 2023 under the CC-BY licence.
-
-It is critical to ensure that the correct file and folder permissions are in place by executing the DOCKER commands as a non-root user.
+This tutorial was created by Norbert EHART (norbert@ehart.net) in 2023 under the CC-BY licence. It is critical to ensure that the correct file and folder permissions are in place by executing the DOCKER commands as a non-root user.
 
 ```text
 sudo bash
